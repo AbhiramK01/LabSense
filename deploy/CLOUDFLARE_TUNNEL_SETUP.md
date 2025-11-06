@@ -68,12 +68,11 @@ brew install cloudflare/cloudflare/cloudflared
 ```bash
 cd /path/to/LabSense
 # Make sure you have a virtual environment activated
-source venv/bin/activate  # or: python -m venv venv && source venv/bin/activate
-pip install -r app/requirements.txt
+source .venv/bin/activate  # or: python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
 
-# Start FastAPI
-cd app
-uvicorn main:app --host 0.0.0.0 --port 8000
+# Start FastAPI (from project root, not from app/ directory)
+uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
 **Keep this terminal open!** Your backend is now running at `http://localhost:8000`
@@ -94,6 +93,11 @@ You'll see output like:
 
 **Copy that URL!** (e.g., `https://random-name-1234.trycloudflare.com`)
 
+> ⚠️ **Note about warnings**: You may see some warnings like:
+> - `Cannot determine default configuration path` - This is normal for quick tunnels, can be ignored
+> - `Cannot determine default origin certificate path` - This is also normal for quick tunnels, the tunnel will still work
+> - These warnings don't affect functionality. The tunnel is working if you see "Registered tunnel connection"
+
 ---
 
 ## Part 6: Connect Frontend to Backend
@@ -107,19 +111,48 @@ You'll see output like:
 4. Click **"Save"**
 5. Go to **"Deployments"** → Click **"Retry deployment"** (or push a new commit)
 
-### Step 7: Update backend CORS (optional but recommended)
-Edit `app/main.py`:
+### Step 7: Update backend CORS (REQUIRED for Cloudflare Pages)
+
+The CORS error you're seeing (`OPTIONS /api/auth/login HTTP/1.1" 400 Bad Request`) means your backend needs to allow requests from your Cloudflare Pages frontend.
+
+Edit `app/main.py` and update the CORS origins:
+
 ```python
-# Replace line 20:
-allow_origins=["*"],  # Change this to:
-allow_origins=[
-    "https://your-app-name.pages.dev",  # Your Cloudflare Pages URL
-    "http://localhost:5173",  # Keep for local dev
-    "http://localhost:3000",  # Keep for local dev
-],
+# Find this section (around line 20):
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+    ],
+    # ... rest of config
+)
 ```
 
-Restart your backend (Ctrl+C, then run `uvicorn` again).
+**Add your Cloudflare Pages URL:**
+```python
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://your-app-name.pages.dev",  # ⬅️ ADD YOUR CLOUDFLARE PAGES URL HERE
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+```
+
+**Restart your backend:**
+1. Stop the backend (Ctrl+C in Terminal 1)
+2. Start it again: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
+
+> ⚠️ **Important**: Replace `your-app-name.pages.dev` with your actual Cloudflare Pages URL (e.g., `labsense-abc123.pages.dev`)
+
+> 💡 **Tip**: If you have multiple Cloudflare Pages URLs (production, preview, etc.), add them all to the `allow_origins` list.
 
 ---
 
@@ -139,8 +172,8 @@ Restart your backend (Ctrl+C, then run `uvicorn` again).
 
 ### Or run in background (Mac/Linux):
 ```bash
-# Backend:
-cd app && nohup uvicorn main:app --host 0.0.0.0 --port 8000 > backend.log 2>&1 &
+# Backend (from project root):
+nohup uvicorn app.main:app --host 0.0.0.0 --port 8000 > backend.log 2>&1 &
 
 # Tunnel:
 nohup npx cloudflared tunnel --url http://localhost:8000 > tunnel.log 2>&1 &

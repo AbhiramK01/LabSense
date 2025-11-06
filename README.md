@@ -199,6 +199,7 @@ uvicorn app.main:app --reload
 > ⚠️ **Common errors:**
 > - `Port 8000 already in use` → Stop other services on port 8000, or use: `uvicorn app.main:app --reload --port 8001`
 > - `ModuleNotFoundError: No module named 'app'` → Make sure you're in project root, not in `frontend/` or `app/`
+> - `ImportError: attempted relative import with no known parent package` → **You're in the wrong directory!** Run `uvicorn app.main:app` from the project root (where `app/` folder is), NOT from inside the `app/` directory
 > - `ImportError` → Make sure virtual environment is activated and dependencies are installed
 
 #### Terminal 2: Frontend Server
