@@ -1,0 +1,30 @@
+{
+  "4ad7cc60-8832-4a94-b4d1-451206874ede": {
+    "id": "4ad7cc60-8832-4a94-b4d1-451206874ede",
+    "name": "CSE",
+    "code": "CSE",
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1",
+    "created_at": "2025-10-29T19:19:43.307834"
+  },
+  "e9fd8169-d9a8-4689-97ff-b19fa94ccd50": {
+    "id": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
+    "name": "IT",
+    "code": "IT",
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1",
+    "created_at": "2025-10-29T19:19:55.462250"
+  },
+  "1de93c3f-fc94-4d1f-9963-fe84a8200389": {
+    "id": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+    "name": "Information Technology",
+    "code": "IT",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "created_at": "2025-10-31T01:07:03.750208"
+  },
+  "47122805-d893-40aa-b81e-63b44686255f": {
+    "id": "47122805-d893-40aa-b81e-63b44686255f",
+    "name": "ECE",
+    "code": "ECE",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "created_at": "2025-10-31T13:25:26.637028"
+  }
+}

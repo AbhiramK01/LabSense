@@ -1,0 +1,14 @@
+{
+  "625db6ec-40fb-48e8-a8ce-ddfb3e10f894": {
+    "id": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
+    "name": "2",
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1",
+    "created_at": "2025-10-29T19:20:16.623868"
+  },
+  "76c696aa-9213-4b02-b764-f859c74a81f9": {
+    "id": "76c696aa-9213-4b02-b764-f859c74a81f9",
+    "name": "B",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "created_at": "2025-10-31T01:07:12.934705"
+  }
+}

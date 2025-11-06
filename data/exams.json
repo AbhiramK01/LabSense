@@ -1,0 +1,4614 @@
+{
+  "3": {
+    "exam_id": "3",
+    "start_code": "1",
+    "subject_name": "pyy (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 12,
+    "num_questions": 2,
+    "questions_per_student": 1,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "Even or odd",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "test_cases": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "Square of a number",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "test_cases": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "allowed_departments": [
+      "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+      "47122805-d893-40aa-b81e-63b44686255f"
+    ],
+    "allowed_years": [
+      2
+    ],
+    "allowed_sections": [
+      "76c696aa-9213-4b02-b764-f859c74a81f9"
+    ],
+    "layout_data": {
+      "id": "layout_1762026439254",
+      "name": "Layout 5x7",
+      "length": 5,
+      "breadth": 7,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 2,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 3,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 3,
+          "col": 5,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 20,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 4,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 24,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 4,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 26,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 28,
+          "row": 4,
+          "col": 7,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 5,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 30,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 5,
+          "col": 6,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-11-01T19:47:19.254Z"
+    },
+    "question_assignments": {
+      "2": [
+        "q1"
+      ],
+      "3": [
+        "q2"
+      ],
+      "4": [
+        "q1"
+      ],
+      "5": [
+        "q2"
+      ],
+      "6": [
+        "q1"
+      ],
+      "8": [
+        "q2"
+      ],
+      "10": [
+        "q1"
+      ],
+      "12": [
+        "q2"
+      ],
+      "14": [
+        "q1"
+      ],
+      "15": [
+        "q2"
+      ],
+      "16": [
+        "q1"
+      ],
+      "18": [
+        "q2"
+      ],
+      "20": [
+        "q1"
+      ],
+      "21": [
+        "q2"
+      ],
+      "22": [
+        "q1"
+      ],
+      "24": [
+        "q2"
+      ],
+      "26": [
+        "q1"
+      ],
+      "28": [
+        "q2"
+      ],
+      "30": [
+        "q1"
+      ],
+      "31": [
+        "q2"
+      ],
+      "32": [
+        "q1"
+      ],
+      "33": [
+        "q2"
+      ],
+      "34": [
+        "q1"
+      ]
+    }
+  },
+  "4": {
+    "exam_id": "4",
+    "start_code": "1",
+    "subject_name": "pyy (Copy) (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 1,
+    "num_questions": 2,
+    "questions_per_student": 1,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "Even or odd",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "test_cases": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "Square of a number",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "test_cases": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "allowed_departments": [
+      "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+      "47122805-d893-40aa-b81e-63b44686255f"
+    ],
+    "allowed_years": [
+      2
+    ],
+    "allowed_sections": [
+      "76c696aa-9213-4b02-b764-f859c74a81f9"
+    ],
+    "layout_data": {
+      "id": "layout_1762028571278",
+      "name": "Layout 5x7",
+      "length": 5,
+      "breadth": 7,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 2,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 3,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 3,
+          "col": 5,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 20,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 4,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 24,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 4,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 26,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 28,
+          "row": 4,
+          "col": 7,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 5,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 30,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 5,
+          "col": 6,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-11-01T20:22:51.278Z"
+    },
+    "question_assignments": {
+      "2": [
+        "q1"
+      ],
+      "3": [
+        "q2"
+      ],
+      "4": [
+        "q1"
+      ],
+      "5": [
+        "q2"
+      ],
+      "6": [
+        "q1"
+      ],
+      "8": [
+        "q2"
+      ],
+      "10": [
+        "q1"
+      ],
+      "12": [
+        "q2"
+      ],
+      "14": [
+        "q1"
+      ],
+      "15": [
+        "q2"
+      ],
+      "16": [
+        "q1"
+      ],
+      "18": [
+        "q2"
+      ],
+      "20": [
+        "q1"
+      ],
+      "21": [
+        "q2"
+      ],
+      "22": [
+        "q1"
+      ],
+      "24": [
+        "q2"
+      ],
+      "26": [
+        "q1"
+      ],
+      "28": [
+        "q2"
+      ],
+      "30": [
+        "q1"
+      ],
+      "31": [
+        "q2"
+      ],
+      "32": [
+        "q1"
+      ],
+      "33": [
+        "q2"
+      ],
+      "34": [
+        "q1"
+      ]
+    }
+  },
+  "5": {
+    "exam_id": "5",
+    "start_code": "1",
+    "subject_name": "kamasutra3 (Copy) (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 2,
+    "num_questions": 4,
+    "questions_per_student": 2,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "1",
+        "ideal_solution": "print('1')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "1",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "2",
+        "ideal_solution": "print('2')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "2",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q3",
+        "text": "3",
+        "ideal_solution": "print('3')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "3",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q4",
+        "text": "4",
+        "ideal_solution": "print('4')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "4",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": false,
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1",
+    "allowed_departments": [
+      "e9fd8169-d9a8-4689-97ff-b19fa94ccd50"
+    ],
+    "allowed_years": [
+      3
+    ],
+    "allowed_sections": [
+      "625db6ec-40fb-48e8-a8ce-ddfb3e10f894"
+    ],
+    "layout_data": {
+      "id": "layout_1761905548596",
+      "name": "Layout 5x10",
+      "length": 5,
+      "breadth": 10,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 8,
+          "row": 1,
+          "col": 8,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 9,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 10,
+          "row": 1,
+          "col": 10,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 2,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 4,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 2,
+          "col": 6,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 18,
+          "row": 2,
+          "col": 8,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 2,
+          "col": 9,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 20,
+          "row": 2,
+          "col": 10,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "col": 3,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 24,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 3,
+          "col": 5,
+          "serialNumber": 25,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 26,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 26,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 27,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 28,
+          "row": 3,
+          "col": 8,
+          "serialNumber": 28,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 3,
+          "col": 9,
+          "serialNumber": 29,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 30,
+          "row": 3,
+          "col": 10,
+          "serialNumber": 30,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 31,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 4,
+          "col": 2,
+          "serialNumber": 32,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 33,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 4,
+          "col": 4,
+          "serialNumber": 34,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 35,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 36,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 37,
+          "row": 4,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 38,
+          "row": 4,
+          "col": 8,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 39,
+          "row": 4,
+          "col": 9,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 40,
+          "row": 4,
+          "col": 10,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 41,
+          "row": 5,
+          "col": 1,
+          "serialNumber": 36,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 42,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 37,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 43,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 38,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 44,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 39,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 45,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 40,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 46,
+          "row": 5,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 47,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 48,
+          "row": 5,
+          "col": 8,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 49,
+          "row": 5,
+          "col": 9,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 50,
+          "row": 5,
+          "col": 10,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-10-31T10:12:28.596Z"
+    },
+    "question_assignments": {
+      "1": [
+        "q1",
+        "q3"
+      ],
+      "2": [
+        "q2",
+        "q4"
+      ],
+      "3": [
+        "q1",
+        "q3"
+      ],
+      "4": [
+        "q2",
+        "q4"
+      ],
+      "5": [
+        "q1",
+        "q3"
+      ],
+      "6": [
+        "q2",
+        "q4"
+      ],
+      "7": [
+        "q1",
+        "q3"
+      ],
+      "8": [
+        "q2",
+        "q4"
+      ],
+      "9": [
+        "q1",
+        "q3"
+      ],
+      "10": [
+        "q2",
+        "q4"
+      ],
+      "11": [
+        "q1",
+        "q3"
+      ],
+      "12": [
+        "q2",
+        "q4"
+      ],
+      "13": [
+        "q1",
+        "q3"
+      ],
+      "14": [
+        "q2",
+        "q4"
+      ],
+      "15": [
+        "q1",
+        "q3"
+      ],
+      "16": [
+        "q2",
+        "q4"
+      ],
+      "17": [
+        "q1",
+        "q3"
+      ],
+      "18": [
+        "q2",
+        "q4"
+      ],
+      "19": [
+        "q1",
+        "q3"
+      ],
+      "20": [
+        "q2",
+        "q4"
+      ],
+      "21": [
+        "q1",
+        "q3"
+      ],
+      "22": [
+        "q2",
+        "q4"
+      ],
+      "23": [
+        "q1",
+        "q3"
+      ],
+      "24": [
+        "q2",
+        "q4"
+      ],
+      "25": [
+        "q1",
+        "q3"
+      ],
+      "26": [
+        "q2",
+        "q4"
+      ],
+      "27": [
+        "q1",
+        "q3"
+      ],
+      "28": [
+        "q2",
+        "q4"
+      ],
+      "29": [
+        "q1",
+        "q3"
+      ],
+      "30": [
+        "q2",
+        "q4"
+      ],
+      "31": [
+        "q1",
+        "q3"
+      ],
+      "32": [
+        "q2",
+        "q4"
+      ],
+      "33": [
+        "q1",
+        "q3"
+      ],
+      "34": [
+        "q2",
+        "q4"
+      ],
+      "35": [
+        "q1",
+        "q3"
+      ],
+      "41": [
+        "q2",
+        "q4"
+      ],
+      "42": [
+        "q1",
+        "q3"
+      ],
+      "43": [
+        "q2",
+        "q4"
+      ],
+      "44": [
+        "q1",
+        "q3"
+      ],
+      "45": [
+        "q2",
+        "q4"
+      ]
+    }
+  },
+  "1": {
+    "exam_id": "1",
+    "start_code": "1",
+    "subject_name": "pyy",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 12,
+    "num_questions": 2,
+    "questions_per_student": 1,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "Even or odd",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "test_cases": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "Square of a number",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "test_cases": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "allowed_departments": [
+      "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+      "47122805-d893-40aa-b81e-63b44686255f"
+    ],
+    "allowed_years": [
+      2
+    ],
+    "allowed_sections": [
+      "76c696aa-9213-4b02-b764-f859c74a81f9"
+    ],
+    "layout_data": {
+      "id": "layout_1762018012890",
+      "name": "Layout 5x7",
+      "length": 5,
+      "breadth": 7,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 2,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 3,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 3,
+          "col": 5,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 20,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 4,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 24,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 4,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 26,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 28,
+          "row": 4,
+          "col": 7,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 5,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 30,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 5,
+          "col": 6,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-11-01T17:26:52.890Z"
+    },
+    "question_assignments": {
+      "2": [
+        "q1"
+      ],
+      "3": [
+        "q2"
+      ],
+      "4": [
+        "q1"
+      ],
+      "5": [
+        "q2"
+      ],
+      "6": [
+        "q1"
+      ],
+      "8": [
+        "q2"
+      ],
+      "10": [
+        "q1"
+      ],
+      "12": [
+        "q2"
+      ],
+      "14": [
+        "q1"
+      ],
+      "15": [
+        "q2"
+      ],
+      "16": [
+        "q1"
+      ],
+      "18": [
+        "q2"
+      ],
+      "20": [
+        "q1"
+      ],
+      "21": [
+        "q2"
+      ],
+      "22": [
+        "q1"
+      ],
+      "24": [
+        "q2"
+      ],
+      "26": [
+        "q1"
+      ],
+      "28": [
+        "q2"
+      ],
+      "30": [
+        "q1"
+      ],
+      "31": [
+        "q2"
+      ],
+      "32": [
+        "q1"
+      ],
+      "33": [
+        "q2"
+      ],
+      "34": [
+        "q1"
+      ]
+    }
+  },
+  "6": {
+    "exam_id": "6",
+    "start_code": "1",
+    "subject_name": "kamasutra3 (Copy) (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 2,
+    "num_questions": 4,
+    "questions_per_student": 2,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "1",
+        "ideal_solution": "print('1')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "1",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "2",
+        "ideal_solution": "print('2')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "2",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q3",
+        "text": "3",
+        "ideal_solution": "print('3')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "3",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q4",
+        "text": "4",
+        "ideal_solution": "print('4')",
+        "test_cases": [
+          {
+            "input": "",
+            "expected_output": "4",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1",
+    "allowed_departments": [
+      "e9fd8169-d9a8-4689-97ff-b19fa94ccd50"
+    ],
+    "allowed_years": [
+      4
+    ],
+    "allowed_sections": [
+      "625db6ec-40fb-48e8-a8ce-ddfb3e10f894"
+    ],
+    "layout_data": {
+      "id": "layout_1762003983096",
+      "name": "Layout 5x10",
+      "length": 5,
+      "breadth": 10,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 8,
+          "row": 1,
+          "col": 8,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 1,
+          "col": 9,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 10,
+          "row": 1,
+          "col": 10,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 2,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 4,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 2,
+          "col": 6,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 18,
+          "row": 2,
+          "col": 8,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 2,
+          "col": 9,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 20,
+          "row": 2,
+          "col": 10,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 3,
+          "col": 3,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 24,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 24,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 3,
+          "col": 5,
+          "serialNumber": 25,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 26,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 26,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 27,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 28,
+          "row": 3,
+          "col": 8,
+          "serialNumber": 28,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 3,
+          "col": 9,
+          "serialNumber": 29,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 30,
+          "row": 3,
+          "col": 10,
+          "serialNumber": 30,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 31,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 4,
+          "col": 2,
+          "serialNumber": 32,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 33,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 4,
+          "col": 4,
+          "serialNumber": 34,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 35,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 36,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 37,
+          "row": 4,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 38,
+          "row": 4,
+          "col": 8,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 39,
+          "row": 4,
+          "col": 9,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 40,
+          "row": 4,
+          "col": 10,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 41,
+          "row": 5,
+          "col": 1,
+          "serialNumber": 36,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 42,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 37,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 43,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 38,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 44,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 39,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2",
+            "q3"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 45,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 40,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1",
+            "q4"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 46,
+          "row": 5,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 47,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 48,
+          "row": 5,
+          "col": 8,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 49,
+          "row": 5,
+          "col": 9,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 50,
+          "row": 5,
+          "col": 10,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-11-01T13:33:03.096Z"
+    },
+    "question_assignments": {
+      "1": [
+        "q2",
+        "q3"
+      ],
+      "2": [
+        "q1",
+        "q4"
+      ],
+      "3": [
+        "q2",
+        "q3"
+      ],
+      "4": [
+        "q1",
+        "q4"
+      ],
+      "5": [
+        "q2",
+        "q3"
+      ],
+      "6": [
+        "q1",
+        "q4"
+      ],
+      "7": [
+        "q2",
+        "q3"
+      ],
+      "8": [
+        "q1",
+        "q4"
+      ],
+      "9": [
+        "q2",
+        "q3"
+      ],
+      "10": [
+        "q1",
+        "q4"
+      ],
+      "11": [
+        "q2",
+        "q3"
+      ],
+      "12": [
+        "q1",
+        "q4"
+      ],
+      "13": [
+        "q2",
+        "q3"
+      ],
+      "14": [
+        "q1",
+        "q4"
+      ],
+      "15": [
+        "q2",
+        "q3"
+      ],
+      "16": [
+        "q1",
+        "q4"
+      ],
+      "17": [
+        "q2",
+        "q3"
+      ],
+      "18": [
+        "q1",
+        "q4"
+      ],
+      "19": [
+        "q2",
+        "q3"
+      ],
+      "20": [
+        "q1",
+        "q4"
+      ],
+      "21": [
+        "q2",
+        "q3"
+      ],
+      "22": [
+        "q1",
+        "q4"
+      ],
+      "23": [
+        "q2",
+        "q3"
+      ],
+      "24": [
+        "q1",
+        "q4"
+      ],
+      "25": [
+        "q2",
+        "q3"
+      ],
+      "26": [
+        "q1",
+        "q4"
+      ],
+      "27": [
+        "q2",
+        "q3"
+      ],
+      "28": [
+        "q1",
+        "q4"
+      ],
+      "29": [
+        "q2",
+        "q3"
+      ],
+      "30": [
+        "q1",
+        "q4"
+      ],
+      "31": [
+        "q2",
+        "q3"
+      ],
+      "32": [
+        "q1",
+        "q4"
+      ],
+      "33": [
+        "q2",
+        "q3"
+      ],
+      "34": [
+        "q1",
+        "q4"
+      ],
+      "35": [
+        "q2",
+        "q3"
+      ],
+      "41": [
+        "q1",
+        "q4"
+      ],
+      "42": [
+        "q2",
+        "q3"
+      ],
+      "43": [
+        "q1",
+        "q4"
+      ],
+      "44": [
+        "q2",
+        "q3"
+      ],
+      "45": [
+        "q1",
+        "q4"
+      ]
+    }
+  },
+  "2": {
+    "exam_id": "2",
+    "start_code": "1",
+    "subject_name": "pyy (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 12,
+    "num_questions": 2,
+    "questions_per_student": 1,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "Even or odd",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "test_cases": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "Square of a number",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "test_cases": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "allowed_departments": [
+      "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+      "47122805-d893-40aa-b81e-63b44686255f"
+    ],
+    "allowed_years": [
+      2
+    ],
+    "allowed_sections": [
+      "76c696aa-9213-4b02-b764-f859c74a81f9"
+    ],
+    "layout_data": {
+      "id": "layout_1762022911960",
+      "name": "Layout 5x7",
+      "length": 5,
+      "breadth": 7,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 2,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 3,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 3,
+          "col": 5,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 20,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 4,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 24,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 4,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 26,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 28,
+          "row": 4,
+          "col": 7,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 5,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 30,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 5,
+          "col": 6,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-11-01T18:48:31.960Z"
+    },
+    "question_assignments": {
+      "2": [
+        "q1"
+      ],
+      "3": [
+        "q2"
+      ],
+      "4": [
+        "q1"
+      ],
+      "5": [
+        "q2"
+      ],
+      "6": [
+        "q1"
+      ],
+      "8": [
+        "q2"
+      ],
+      "10": [
+        "q1"
+      ],
+      "12": [
+        "q2"
+      ],
+      "14": [
+        "q1"
+      ],
+      "15": [
+        "q2"
+      ],
+      "16": [
+        "q1"
+      ],
+      "18": [
+        "q2"
+      ],
+      "20": [
+        "q1"
+      ],
+      "21": [
+        "q2"
+      ],
+      "22": [
+        "q1"
+      ],
+      "24": [
+        "q2"
+      ],
+      "26": [
+        "q1"
+      ],
+      "28": [
+        "q2"
+      ],
+      "30": [
+        "q1"
+      ],
+      "31": [
+        "q2"
+      ],
+      "32": [
+        "q1"
+      ],
+      "33": [
+        "q2"
+      ],
+      "34": [
+        "q1"
+      ]
+    }
+  },
+  "10": {
+    "exam_id": "10",
+    "start_code": "1",
+    "subject_name": "pyy (Copy) (Copy) (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 1,
+    "num_questions": 2,
+    "questions_per_student": 1,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "Even or odd",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "test_cases": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "Square of a number",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "test_cases": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "allowed_departments": [
+      "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+      "47122805-d893-40aa-b81e-63b44686255f"
+    ],
+    "allowed_years": [
+      2
+    ],
+    "allowed_sections": [
+      "76c696aa-9213-4b02-b764-f859c74a81f9"
+    ],
+    "layout_data": {
+      "id": "layout_1762108812698",
+      "name": "Layout 4x6",
+      "length": 4,
+      "breadth": 6,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 2,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 4,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 6,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 14,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 3,
+          "col": 3,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 5,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 20,
+          "row": 4,
+          "col": 2,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 4,
+          "col": 4,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 24,
+          "row": 4,
+          "col": 6,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        }
+      ],
+      "createdAt": "2025-11-02T18:40:12.698Z"
+    },
+    "question_assignments": {
+      "1": [
+        "q2"
+      ],
+      "2": [
+        "q1"
+      ],
+      "3": [
+        "q2"
+      ],
+      "4": [
+        "q1"
+      ],
+      "5": [
+        "q2"
+      ],
+      "6": [
+        "q1"
+      ],
+      "7": [
+        "q2"
+      ],
+      "8": [
+        "q1"
+      ],
+      "9": [
+        "q2"
+      ],
+      "10": [
+        "q1"
+      ],
+      "11": [
+        "q2"
+      ],
+      "12": [
+        "q1"
+      ],
+      "13": [
+        "q2"
+      ],
+      "14": [
+        "q1"
+      ],
+      "17": [
+        "q2"
+      ],
+      "18": [
+        "q1"
+      ],
+      "19": [
+        "q2"
+      ],
+      "20": [
+        "q1"
+      ],
+      "21": [
+        "q2"
+      ],
+      "22": [
+        "q1"
+      ],
+      "23": [
+        "q2"
+      ],
+      "24": [
+        "q1"
+      ]
+    }
+  },
+  "11": {
+    "exam_id": "11",
+    "start_code": "1",
+    "subject_name": "pyy (Copy) (Copy)",
+    "languages": [
+      "python"
+    ],
+    "duration_minutes": 12,
+    "num_questions": 2,
+    "questions_per_student": 1,
+    "questions": [
+      {
+        "question_id": "q1",
+        "text": "Even or odd",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "test_cases": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "is_public": true
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "is_public": true
+          }
+        ]
+      },
+      {
+        "question_id": "q2",
+        "text": "Square of a number",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "test_cases": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "is_public": true
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "is_public": true
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "is_public": true
+          }
+        ]
+      }
+    ],
+    "is_live": true,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "allowed_departments": [
+      "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+      "47122805-d893-40aa-b81e-63b44686255f"
+    ],
+    "allowed_years": [
+      2
+    ],
+    "allowed_sections": [
+      "76c696aa-9213-4b02-b764-f859c74a81f9"
+    ],
+    "layout_data": {
+      "id": "layout_1762297854599",
+      "name": "Layout 5x7",
+      "length": 5,
+      "breadth": 7,
+      "systems": [
+        {
+          "id": 1,
+          "row": 1,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 2,
+          "row": 1,
+          "col": 2,
+          "serialNumber": 1,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 3,
+          "row": 1,
+          "col": 3,
+          "serialNumber": 2,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 4,
+          "row": 1,
+          "col": 4,
+          "serialNumber": 3,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 5,
+          "row": 1,
+          "col": 5,
+          "serialNumber": 4,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 6,
+          "row": 1,
+          "col": 6,
+          "serialNumber": 5,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 7,
+          "row": 1,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 8,
+          "row": 2,
+          "col": 1,
+          "serialNumber": 6,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 9,
+          "row": 2,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 10,
+          "row": 2,
+          "col": 3,
+          "serialNumber": 7,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 11,
+          "row": 2,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 12,
+          "row": 2,
+          "col": 5,
+          "serialNumber": 8,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 13,
+          "row": 2,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 14,
+          "row": 2,
+          "col": 7,
+          "serialNumber": 9,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 15,
+          "row": 3,
+          "col": 1,
+          "serialNumber": 10,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 16,
+          "row": 3,
+          "col": 2,
+          "serialNumber": 11,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 17,
+          "row": 3,
+          "col": 3,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 18,
+          "row": 3,
+          "col": 4,
+          "serialNumber": 12,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 19,
+          "row": 3,
+          "col": 5,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 20,
+          "row": 3,
+          "col": 6,
+          "serialNumber": 13,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 21,
+          "row": 3,
+          "col": 7,
+          "serialNumber": 14,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 22,
+          "row": 4,
+          "col": 1,
+          "serialNumber": 15,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 23,
+          "row": 4,
+          "col": 2,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 24,
+          "row": 4,
+          "col": 3,
+          "serialNumber": 16,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 25,
+          "row": 4,
+          "col": 4,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 26,
+          "row": 4,
+          "col": 5,
+          "serialNumber": 17,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 27,
+          "row": 4,
+          "col": 6,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 28,
+          "row": 4,
+          "col": 7,
+          "serialNumber": 18,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 29,
+          "row": 5,
+          "col": 1,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        },
+        {
+          "id": 30,
+          "row": 5,
+          "col": 2,
+          "serialNumber": 19,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 31,
+          "row": 5,
+          "col": 3,
+          "serialNumber": 20,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 32,
+          "row": 5,
+          "col": 4,
+          "serialNumber": 21,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 33,
+          "row": 5,
+          "col": 5,
+          "serialNumber": 22,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q1"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 34,
+          "row": 5,
+          "col": 6,
+          "serialNumber": 23,
+          "isWorking": true,
+          "assignedQuestions": [
+            "q2"
+          ],
+          "isSelected": false
+        },
+        {
+          "id": 35,
+          "row": 5,
+          "col": 7,
+          "serialNumber": null,
+          "isWorking": false,
+          "assignedQuestions": [],
+          "isSelected": true
+        }
+      ],
+      "createdAt": "2025-11-04T23:10:54.599Z"
+    },
+    "question_assignments": {
+      "2": [
+        "q2"
+      ],
+      "3": [
+        "q1"
+      ],
+      "4": [
+        "q2"
+      ],
+      "5": [
+        "q1"
+      ],
+      "6": [
+        "q2"
+      ],
+      "8": [
+        "q1"
+      ],
+      "10": [
+        "q2"
+      ],
+      "12": [
+        "q1"
+      ],
+      "14": [
+        "q2"
+      ],
+      "15": [
+        "q1"
+      ],
+      "16": [
+        "q2"
+      ],
+      "18": [
+        "q1"
+      ],
+      "20": [
+        "q2"
+      ],
+      "21": [
+        "q1"
+      ],
+      "22": [
+        "q2"
+      ],
+      "24": [
+        "q1"
+      ],
+      "26": [
+        "q2"
+      ],
+      "28": [
+        "q1"
+      ],
+      "30": [
+        "q2"
+      ],
+      "31": [
+        "q1"
+      ],
+      "32": [
+        "q2"
+      ],
+      "33": [
+        "q1"
+      ],
+      "34": [
+        "q2"
+      ]
+    }
+  }
+}

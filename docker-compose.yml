@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  api:
+    build: ./app
+    container_name: labsense-api
+    env_file: ./.env
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --proxy-headers
+    expose:
+      - "8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: labsense-frontend
+    depends_on:
+      - api
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.27
+    container_name: labsense-nginx
+    depends_on:
+      - api
+      - frontend
+    volumes:
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: unless-stopped
+
+volumes:
+  # Declared for clarity; data is bind-mounted from ./data to persist submissions/exams
+  # Certificates and webroot are host paths managed by certbot on the VM
+  data:
+
+
+
