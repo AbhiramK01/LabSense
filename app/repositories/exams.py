@@ -185,26 +185,15 @@ class ExamRepository:
 		# Import department repository to resolve names
 		from .registry import department_repo
 		
-		print(f"🔍 DEBUG: get_results_summary called with faculty_user_id: {faculty_user_id}")
-		print(f"🔍 DEBUG: Total exams in system: {len(self._exams)}")
-		print(f"🔍 DEBUG: Exam faculty mapping: {self._exam_faculty}")
-		
 		# If no exams exist, return empty list
 		if not self._exams:
-			print("🔍 DEBUG: No exams found, returning empty results")
 			return results
 		
 		for exam_id, exam in self._exams.items():
-			print(f"🔍 DEBUG: Processing exam {exam_id}: {exam.subject_name}")
-			# Temporarily bypass faculty filter to debug
-			print(f"🔍 DEBUG: Faculty user ID: {faculty_user_id}")
-			print(f"🔍 DEBUG: Exam {exam_id} faculty: {self._exam_faculty.get(exam_id, 'No faculty')}")
 			# If faculty_user_id is provided, only show exams created by that faculty
 			if faculty_user_id is not None:
 				if exam_id not in self._exam_faculty or self._exam_faculty[exam_id] != faculty_user_id:
-					print(f"🔍 DEBUG: Skipping exam {exam_id} - not owned by faculty {faculty_user_id}")
 					continue
-				print(f"🔍 DEBUG: Exam {exam_id} is owned by faculty {faculty_user_id}")
 			# Initialize default values
 			submissions = []
 			live_takers = 0
@@ -236,7 +225,6 @@ class ExamRepository:
 									student_user = shared_user_repo.find_by_id(user_id)
 									student_college_id = getattr(student_user, 'college_id', None) if student_user else None
 									if student_college_id != exam_college_id:
-										print(f"🔍 DEBUG: Skipping student {user_id} - college mismatch: student={student_college_id}, exam={exam_college_id}")
 										continue  # Skip students from different colleges
 								except Exception as e:
 									print(f"⚠️ WARNING: Error checking college for student {user_id}: {e}")
@@ -244,7 +232,6 @@ class ExamRepository:
 									pass
 							exam_sessions.append(session)
 					
-					print(f"🔍 DEBUG: Exam {exam_id} - exam_college_id={exam_college_id}, filtered_sessions={len(exam_sessions)}")
 					
 					# Live takers: have serial number but haven't finished
 					live_takers = len([s for s in exam_sessions if hasattr(s, 'serial_number') and s.serial_number is not None and hasattr(s, 'finished') and not s.finished])
@@ -355,7 +342,6 @@ class ExamRepository:
 								student_user = shared_user_repo.find_by_id(user_id)
 								student_college_id = getattr(student_user, 'college_id', None) if student_user else None
 								if student_college_id != exam_college_id:
-									print(f"🔍 DEBUG: Skipping student {user_id} from students_data - college mismatch: student={student_college_id}, exam={exam_college_id}")
 									continue  # Skip students from different colleges
 							except Exception as e:
 								print(f"⚠️ WARNING: Error checking college for student {user_id} in students_data: {e}")
@@ -464,7 +450,6 @@ class ExamRepository:
 				allowed_sections=section_names
 			))
 		
-		print(f"🔍 DEBUG: Returning {len(results)} results")
 		return results
 	
 	def get_exam(self, exam_id: str, faculty_user_id: Optional[str] = None) -> Optional[ExamCreate]:
@@ -511,30 +496,21 @@ class ExamRepository:
 				if exam_college_id != student_college_id:
 					continue  # Skip exams from different colleges
 			
-			# Debug: Log exam status
-			print(f"Exam {exam_id}: is_live={exam.is_live}, subject={exam.subject_name}")
-			
 			# Check if exam is live
 			if not exam.is_live:
-				print(f"  -> Skipping {exam_id} (not live)")
 				continue
 			
 			# Check department filter
 			if exam.allowed_departments and department_id not in exam.allowed_departments:
-				print(f"  -> Skipping {exam_id} (department filter)")
 				continue
 			
 			# Check year filter
 			if exam.allowed_years and year not in exam.allowed_years:
-				print(f"  -> Skipping {exam_id} (year filter)")
 				continue
 			
 			# Check section filter
 			if exam.allowed_sections and section_id not in exam.allowed_sections:
-				print(f"  -> Skipping {exam_id} (section filter)")
 				continue
-			
-			print(f"  -> Including {exam_id} (passed all filters)")
 			
 			# Convert to public format
 			available_exams.append(ExamPublic(
@@ -547,5 +523,4 @@ class ExamRepository:
 				is_live=exam.is_live
 			))
 		
-		print(f"Total available exams: {len(available_exams)}")
 		return available_exams

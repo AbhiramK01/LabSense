@@ -127,16 +127,7 @@ class UpdateCollegeRequest(BaseModel):
 @api_router.get("/colleges/{college_id}/admin", tags=["super_admin"])
 async def get_college_admin(college_id: str, _claims = Depends(require_role(UserRole.super_admin))):
     """Get admin user details for a college"""
-    print(f"🔍 Looking for admin users for college_id: {college_id}")
-    
-    # Debug: Print all users
-    all_users = list(shared_user_repo._users_by_id.values())
-    print(f"📊 Total users in system: {len(all_users)}")
-    for user in all_users:
-        print(f"   User: {user.username} (role: {user.role.value}, college_id: {getattr(user, 'college_id', 'None')})")
-    
     admin_users = [u for u in shared_user_repo._users_by_id.values() if u.college_id == college_id and u.role == UserRole.admin]
-    print(f"🎯 Found {len(admin_users)} admin users for college {college_id}")
     
     if not admin_users:
         print(f"❌ No admin user found for college {college_id}")

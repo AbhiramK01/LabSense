@@ -34,9 +34,7 @@ async def list_exams(claims = Depends(require_role(UserRole.faculty))):
 @router.get("/results")
 async def get_all_exam_results(claims = Depends(require_role(UserRole.faculty))):
 	"""Get results summary for all exams created by the faculty member"""
-	print(f"🔍 DEBUG: get_all_exam_results called with claims: {claims}")
 	results = exam_repo.get_results_summary(claims["sub"])
-	print(f"🔍 DEBUG: Returning {len(results)} results")
 	return {"results": results}
 
 

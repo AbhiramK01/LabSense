@@ -47,7 +47,7 @@ brew install cloudflare/cloudflare/cloudflared
 
 ### Step 4: Start your backend locally
 ```bash
-cd /Users/abhiramk01/LabSense2
+cd /path/to/LabSense2
 # Make sure you have a virtual environment activated
 source venv/bin/activate  # or: python -m venv venv && source venv/bin/activate
 pip install -r app/requirements.txt

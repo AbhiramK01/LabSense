@@ -35,48 +35,270 @@
 
 ## 🚀 Quick Start
 
-### Prerequisites
+Follow these steps to get LabSense running on your local machine in minutes.
 
-- Python 3.9+
-- Node.js 18+
-- (Optional) Ollama for local LLM evaluation
-- (Optional) Judge0 Cloud API key for multi-language support
+### Step 1: Prerequisites Check
 
-### Installation
+**Required:**
+- **Python 3.9 or higher** - [Download Python](https://www.python.org/downloads/)
+- **Node.js 18 or higher** - [Download Node.js](https://nodejs.org/)
+- **Git** - [Download Git](https://git-scm.com/downloads)
+
+**Verify installations:**
+```bash
+python --version    # Should show Python 3.9+
+node --version     # Should show v18.x.x or higher
+npm --version      # Should show version number
+git --version      # Should show version number
+```
+
+**Optional (for enhanced features):**
+- **Ollama** - For local LLM evaluation (see [LOCAL_LLM_SETUP_GUIDE.md](LOCAL_LLM_SETUP_GUIDE.md))
+- **Judge0 Cloud API** - For multi-language code execution (see [setup_judge0_cloud.md](setup_judge0_cloud.md))
+
+> ⚠️ **Note**: The app works without LLM/Judge0, but with limited features:
+> - Without LLM: Basic heuristic evaluation (no AI feedback)
+> - Without Judge0: Only Python code execution supported
+
+---
+
+### Step 2: Clone the Repository
 
 ```bash
-# Clone the repository
 git clone https://github.com/yourusername/LabSense2.git
 cd LabSense2
+```
 
-# Backend setup
+> 💡 **Troubleshooting**: If you get "command not found: git", install Git from the link above.
+
+---
+
+### Step 3: Backend Setup
+
+#### 3.1 Create Virtual Environment
+
+**On macOS/Linux:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**On Windows:**
+```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+.venv\Scripts\activate
+```
 
-# Frontend setup
+> ✅ **Success indicator**: Your terminal prompt should show `(.venv)` at the beginning.
+
+> ⚠️ **Common errors:**
+> - `python: command not found` → Use `python3` instead, or install Python
+> - `venv: No module named venv` → Install Python 3.9+ (venv is included)
+> - `Permission denied` → Try `python3 -m venv .venv` or use `sudo` (Linux only)
+
+#### 3.2 Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+> ✅ **Success indicator**: You should see "Successfully installed" messages.
+
+> ⚠️ **Common errors:**
+> - `pip: command not found` → Use `pip3` or `python -m pip`
+> - `ERROR: Could not find a version` → Update pip: `pip install --upgrade pip`
+> - `Permission denied` → Make sure virtual environment is activated (see `.venv` in prompt)
+
+#### 3.3 Create Data Directory
+
+```bash
+mkdir -p data
+```
+
+> ✅ **Note**: The `data/` directory stores all application data (exams, submissions, users). It's automatically created, but creating it manually ensures proper permissions.
+
+---
+
+### Step 4: Frontend Setup
+
+```bash
 cd frontend
 npm install
 cd ..
 ```
 
-### Running Locally
+> ✅ **Success indicator**: You should see "added X packages" message.
+
+> ⚠️ **Common errors:**
+> - `npm: command not found` → Install Node.js from nodejs.org
+> - `ERR! network` → Check internet connection, try `npm install --verbose`
+> - `EACCES: permission denied` → Don't use `sudo` with npm. Fix permissions: `npm config set prefix ~/.npm-global`
+
+---
+
+### Step 5: Configure Environment (Optional but Recommended)
+
+Create a `.env` file in the project root for custom configuration:
 
 ```bash
-# Terminal 1: Start backend
-source .venv/bin/activate
-uvicorn app.main:app --reload
+# In project root (LabSense2/)
+cat > .env << EOF
+# JWT Secret Key (change this in production!)
+LABSENSE_SECRET_KEY=dev-secret-key-change-in-production
 
-# Terminal 2: Start frontend
+# Token expiration (minutes)
+LABSENSE_ACCESS_TOKEN_EXPIRE_MINUTES=1440
+
+# Optional: LLM Configuration (uncomment if using)
+# LABSENSE_LLM_URL=http://localhost:11434
+# LABSENSE_LLM_MODEL=llama3.1:8b
+# OR use API:
+# OPENAI_API_KEY=your-key-here
+# ANTHROPIC_API_KEY=your-key-here
+
+# Optional: Judge0 for multi-language support
+# LABSENSE_JUDGE0_URL=https://judge0-ce.p.rapidapi.com
+EOF
+```
+
+**On Windows (PowerShell):**
+```powershell
+@"
+LABSENSE_SECRET_KEY=dev-secret-key-change-in-production
+LABSENSE_ACCESS_TOKEN_EXPIRE_MINUTES=1440
+"@ | Out-File -FilePath .env -Encoding utf8
+```
+
+> ✅ **Note**: If you don't create `.env`, the app uses default values (works for development).
+
+---
+
+### Step 6: Start the Application
+
+You need **two terminal windows/tabs** running simultaneously.
+
+#### Terminal 1: Backend Server
+
+```bash
+# Make sure you're in project root
+cd /path/to/LabSense2
+
+# Activate virtual environment
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Start FastAPI server
+uvicorn app.main:app --reload
+```
+
+> ✅ **Success indicator**: You should see:
+> ```
+> INFO:     Uvicorn running on http://127.0.0.1:8000
+> INFO:     Application startup complete.
+> ```
+
+> ⚠️ **Common errors:**
+> - `Port 8000 already in use` → Stop other services on port 8000, or use: `uvicorn app.main:app --reload --port 8001`
+> - `ModuleNotFoundError: No module named 'app'` → Make sure you're in project root, not in `frontend/` or `app/`
+> - `ImportError` → Make sure virtual environment is activated and dependencies are installed
+
+#### Terminal 2: Frontend Server
+
+```bash
+# Make sure you're in project root
+cd /path/to/LabSense2
+
+# Navigate to frontend
 cd frontend
+
+# Start development server
 npm run dev
 ```
 
-Visit `http://localhost:5173` and log in with:
-- **Faculty**: `prof_ada` / `password123`
-- **Student**: `alice@student.edu` / `password123`
+> ✅ **Success indicator**: You should see:
+> ```
+> VITE v5.x.x  ready in xxx ms
+> ➜  Local:   http://localhost:5173/
+> ```
 
-> 📘 **Need more details?** Check out [QUICK_SETUP.md](QUICK_SETUP.md) for step-by-step instructions.
+> ⚠️ **Common errors:**
+> - `Port 5173 already in use` → Stop other Vite servers, or edit `vite.config.ts` to use different port
+> - `Cannot find module` → Run `npm install` again in `frontend/` directory
+> - `EADDRINUSE` → Another process is using the port, find and kill it
+
+---
+
+### Step 7: Access the Application
+
+1. **Open your browser** and navigate to: `http://localhost:5173`
+
+2. **Login with default credentials:**
+
+   **Faculty Account:**
+   - Username/Email: `prof_ada`
+   - Password: `password123`
+
+   **Student Account:**
+   - Username/Email: `alice@student.edu`
+   - Password: `password123`
+
+> ✅ **Success indicator**: You should see the dashboard based on your role (Faculty or Student).
+
+> ⚠️ **Common issues:**
+> - **Blank page / "Cannot GET /"** → Make sure frontend server is running (Terminal 2)
+> - **"Network Error" / "Failed to fetch"** → Make sure backend server is running (Terminal 1)
+> - **Login fails** → Check browser console (F12) for errors, verify backend is on port 8000
+> - **CORS errors** → Backend CORS is configured for `localhost:5173`. If using different port, update `app/main.py`
+
+---
+
+### Step 8: Verify Everything Works
+
+1. **Backend API**: Visit `http://localhost:8000/docs` - You should see FastAPI interactive documentation
+2. **Health Check**: Visit `http://localhost:8000/health` - Should return `{"status":"healthy"}`
+3. **Frontend**: Visit `http://localhost:5173` - Should show login page
+4. **Login**: Use credentials above - Should redirect to dashboard
+
+---
+
+### Next Steps
+
+- ✅ **Basic setup complete!** You can now create exams, take exams, and view results.
+
+- 📘 **For AI-powered evaluation**: See [LOCAL_LLM_SETUP_GUIDE.md](LOCAL_LLM_SETUP_GUIDE.md)
+- 📘 **For multi-language support**: See [setup_judge0_cloud.md](setup_judge0_cloud.md)
+- 📘 **For production deployment**: See [deploy/DEPLOYMENT.md](deploy/DEPLOYMENT.md)
+
+---
+
+### Troubleshooting
+
+#### Backend won't start
+- ✅ Check Python version: `python --version` (needs 3.9+)
+- ✅ Verify virtual environment is activated (`.venv` in prompt)
+- ✅ Reinstall dependencies: `pip install -r requirements.txt --force-reinstall`
+- ✅ Check port 8000 is free: `lsof -i :8000` (macOS/Linux) or `netstat -ano | findstr :8000` (Windows)
+
+#### Frontend won't start
+- ✅ Check Node.js version: `node --version` (needs 18+)
+- ✅ Delete `node_modules` and reinstall: `rm -rf node_modules && npm install`
+- ✅ Clear npm cache: `npm cache clean --force`
+- ✅ Check port 5173 is free
+
+#### Can't login
+- ✅ Verify backend is running (check Terminal 1)
+- ✅ Check browser console (F12) for errors
+- ✅ Verify you're using correct credentials
+- ✅ Try accessing `http://localhost:8000/docs` to test backend
+
+#### Data not persisting
+- ✅ Check `data/` directory exists and is writable
+- ✅ Verify you're in project root when starting backend
+- ✅ Check file permissions: `chmod -R 755 data/` (Linux/macOS)
+
+#### Still having issues?
+- 📘 Check [CHECK_LLM_STATUS.md](CHECK_LLM_STATUS.md) for LLM-related issues
+- 📘 Review error messages in terminal output
+- 📘 Check [GitHub Issues](https://github.com/yourusername/LabSense2/issues) for known problems
 
 ---
 
@@ -141,23 +363,21 @@ Visit `http://localhost:5173` and log in with:
 
 | Document | Description |
 |----------|-------------|
-| [**QUICK_SETUP.md**](QUICK_SETUP.md) | 5-minute setup guide for local LLM |
+| [**LOCAL_LLM_SETUP_GUIDE.md**](LOCAL_LLM_SETUP_GUIDE.md) | Complete local LLM setup guide (Ollama, vLLM, llama.cpp) |
 | [**setup_judge0_cloud.md**](setup_judge0_cloud.md) | Judge0 Cloud API configuration |
-| [**LLM_SETUP.md**](LLM_SETUP.md) | Complete LLM integration guide |
+| [**LLM_SETUP.md**](LLM_SETUP.md) | LLM integration overview (API and local options) |
 
 ### 🧪 Evaluation System
 
 | Document | Description |
 |----------|-------------|
-| [**EVALUATION_SYSTEM_REDESIGN.md**](EVALUATION_SYSTEM_REDESIGN.md) | Comprehensive evaluation system design |
-| [**EVALUATION_IMPLEMENTATION_SUMMARY.md**](EVALUATION_IMPLEMENTATION_SUMMARY.md) | Implementation details and changes |
+| [**EVALUATION_IMPLEMENTATION_SUMMARY.md**](EVALUATION_IMPLEMENTATION_SUMMARY.md) | Complete evaluation system implementation details |
 
 ### 🤖 LLM Integration
 
 | Document | Description |
 |----------|-------------|
 | [**LOCAL_LLM_SETUP_GUIDE.md**](LOCAL_LLM_SETUP_GUIDE.md) | Detailed local LLM setup (Ollama, llama.cpp, etc.) |
-| [**LLM_READY.md**](LLM_READY.md) | Post-setup verification and next steps |
 | [**CHECK_LLM_STATUS.md**](CHECK_LLM_STATUS.md) | Troubleshooting LLM connection issues |
 
 ### 🚀 Deployment
@@ -221,7 +441,7 @@ Final Score = (Effort × 20%) + (Logic Similarity × 40%) + (Test Cases × 40%) 
 - ✅ **Multi-language**: Works for Python, JavaScript, Java, C++, Go
 - ✅ **AI Feedback**: Detailed, constructive feedback for every submission
 
-> 📘 Learn more: [EVALUATION_SYSTEM_REDESIGN.md](EVALUATION_SYSTEM_REDESIGN.md)
+> 📘 Learn more: [EVALUATION_IMPLEMENTATION_SUMMARY.md](EVALUATION_IMPLEMENTATION_SUMMARY.md)
 
 ---
 

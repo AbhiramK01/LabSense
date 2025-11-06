@@ -55,10 +55,6 @@ async def evaluate_code_async(
 			
 		out, err, code, exec_time = run_case(tc['input'])
 		
-		# Debug logging
-		print(f"DEBUG: Input='{tc['input']}'")
-		print(f"DEBUG: Expected='{tc['expected_output']}' (repr: {repr(tc['expected_output'])})")
-		print(f"DEBUG: Actual='{out}' (repr: {repr(out)})")
 		
 		# More robust comparison - handle various whitespace issues
 		expected_clean = tc['expected_output'].strip()

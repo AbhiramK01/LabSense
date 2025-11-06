@@ -9,12 +9,12 @@
 
 ## 🔧 **Step 2: Configure API Key**
 
-Replace `your-rapidapi-key-here` in `/Users/abhiramk01/LabSense2/app/evaluator/execute.py` with your actual key.
+Replace `your-rapidapi-key-here` in `app/evaluator/execute.py` with your actual key.
 
 ## 🎯 **Step 3: Start Backend**
 
 ```bash
-cd /Users/abhiramk01/LabSense2
+cd /path/to/LabSense2
 source .venv/bin/activate
 export LABSENSE_JUDGE0_URL="https://judge0-ce.p.rapidapi.com"
 uvicorn app.main:app --reload

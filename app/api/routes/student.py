@@ -114,13 +114,9 @@ async def get_my_submissions(exam_id: str, version: int = None, claims = Depends
 			print(f"⚠️ Error getting session submissions: {e}")
 			session_subs = []
 		
-		# Debug: Check what sessions exist for this user/exam
 		try:
 			all_sessions = session_repo.get_all_sessions_for_user(user_id)
 			exam_sessions = [s for s in all_sessions if s.exam_id == exam_id]
-			print(f"🔍 All sessions for user {user_id}, exam {exam_id}:")
-			for s in exam_sessions:
-				print(f"  - Version: {getattr(s, 'exam_version', 'NO_VERSION')}, Finished: {getattr(s, 'finished', 'NO_FINISHED')}, Submissions: {len(getattr(s, 'submissions', []))}")
 		except Exception as e:
 			print(f"⚠️ Error getting all sessions: {e}")
 			exam_sessions = []

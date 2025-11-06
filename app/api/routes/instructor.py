@@ -118,8 +118,6 @@ async def get_all_students(claims = Depends(require_role(UserRole.faculty))):
             if user.role.value == 'student':
                 student_count += 1
                 user_college_id = getattr(user, 'college_id', None)
-                if student_count <= 3:  # Log first 3 students for debugging
-                    print(f"[GET /students] Student {user.username}: college_id={user_college_id}, match={user_college_id == college_id}")
             
             if (user.role.value == 'student' and 
                 getattr(user, 'college_id', None) == college_id):

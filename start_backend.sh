@@ -1,7 +1,7 @@
 #!/bin/bash
 # Start LabSense backend with LLM environment variables
 
-cd /Users/abhiramk01/LabSense2
+cd "$(dirname "$0")"
 
 # Activate virtual environment
 source .venv/bin/activate
