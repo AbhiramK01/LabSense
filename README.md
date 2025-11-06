@@ -9,10 +9,11 @@
 [![React](https://img.shields.io/badge/React-18.3+-61dafb.svg)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6+-3178c6.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-labsense--8jr.pages.dev-00d4ff.svg)](https://labsense-8jr.pages.dev)
 
 *Intelligent code evaluation with AI-powered feedback for educational institutions*
 
-[🚀 Quick Start](#-quick-start) • [📚 Documentation](#-documentation) • [✨ Features](#-features) • [🛠️ Tech Stack](#️-tech-stack)
+[🌐 Live Demo](https://labsense-8jr.pages.dev) • [🚀 Quick Start](#-quick-start) • [📚 Documentation](#-documentation) • [✨ Features](#-features) • [🛠️ Tech Stack](#️-tech-stack)
 
 </div>
 
@@ -21,6 +22,8 @@
 ## 📖 Overview
 
 **LabSense** is a comprehensive online coding exam platform designed for educational institutions. It provides AI-powered code evaluation, real-time anti-cheat monitoring, and detailed feedback to help students improve their programming skills.
+
+> 🌐 **Live Demo**: [https://labsense-8jr.pages.dev](https://labsense-8jr.pages.dev) (Frontend deployed on Cloudflare Pages)
 
 ### 🎯 Key Capabilities
 

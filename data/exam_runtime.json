@@ -318,5 +318,20 @@
         "q2"
       ]
     }
+  },
+  "a0fe2d34-04b3-4ece-8407-1093f30717eb|mid1": {
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb",
+    "exam_id": "mid1",
+    "serial_to_user": {
+      "11": "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9"
+    },
+    "user_to_serial": {
+      "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9": 11
+    },
+    "serial_to_question": {
+      "11": [
+        "q2"
+      ]
+    }
   }
 }

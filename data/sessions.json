@@ -4873,5 +4873,163 @@
     "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
     "section_name_snapshot": "B",
     "year_snapshot": 2
+  },
+  "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9|mid1": {
+    "serial_number": 11,
+    "assigned_question": [
+      "q2"
+    ],
+    "finished": true,
+    "joined_at": 1762469042.011595,
+    "serial_deadline": 1762469042.011595,
+    "exam_start_time": 1762469042.01173,
+    "exam_duration_minutes": 12,
+    "exam_end_time": 1762469762.01173,
+    "current_code": "n=int(input())\nprint(n**2)",
+    "last_save_time": 1762469222.8494458,
+    "per_question_code": {
+      "q2": "n=int(input())\nprint(n**2)"
+    },
+    "submissions": [
+      {
+        "question_id": "q2",
+        "code": "n=int(input())\nprint(n)",
+        "score": 40.4,
+        "passed": false,
+        "public_case_results": [
+          false,
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "actual_output": "2\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.03420686721801758
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "actual_output": "3\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.015127897262573242
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "actual_output": "4\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.013634204864501953
+          }
+        ],
+        "submitted_at": "2025-11-06T22:45:18.511505+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+        "department_name_snapshot": "Information Technology",
+        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+        "section_name_snapshot": "B",
+        "year_snapshot": 2,
+        "is_best": false,
+        "effort_score": 0.6,
+        "logic_similarity": 0.71,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (0.0% test cases, 71.0% logic similarity, 60.0% effort)",
+          "critic": "The student's code is missing the calculation of the square of the input number.",
+          "improvements": [
+            "MISTAKE: Missing calculation - Change `print(n)` to `print(n*n)` because it needs to calculate the square of the input number."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `print(n)` to `print(n*n)` because it needs to calculate the square of the input number.']"
+        }
+      },
+      {
+        "question_id": "q2",
+        "code": "n=int(input())\nprint(n**2)",
+        "score": 100.0,
+        "passed": true,
+        "public_case_results": [
+          true,
+          true,
+          true
+        ],
+        "detailed_results": [
+          {
+            "input": "2",
+            "expected_output": "4",
+            "actual_output": "4\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.030065059661865234
+          },
+          {
+            "input": "3",
+            "expected_output": "9",
+            "actual_output": "9\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.015366315841674805
+          },
+          {
+            "input": "4",
+            "expected_output": "16",
+            "actual_output": "16\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.013650894165039062
+          }
+        ],
+        "submitted_at": "2025-11-06T22:45:58.293452+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+        "department_name_snapshot": "Information Technology",
+        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+        "section_name_snapshot": "B",
+        "year_snapshot": 2,
+        "is_best": true,
+        "effort_score": 0.85,
+        "logic_similarity": 0.76,
+        "correctness": 1.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (100.0% test cases, 76.0% logic similarity, 85.0% effort)",
+          "critic": "The student's code does not contain any critical errors or logical flaws.",
+          "improvements": [
+            "MISTAKE: The problem statement is to find the square of a number, but the input is taken as an integer without specifying its range or constraints - Change `n=int(input())` to `n=float(input())` because it's necessary to handle decimal inputs for accurate results.",
+            "MISTAKE: The code does not handle potential errors that may occur during user input - Change `input()` to `try: input()` and add error handling because it's essential to provide a robust solution."
+          ],
+          "scope_for_improvement": "[\"Fix issue: Change `n=int(input())` to `n=float(input())` because it's necessary to handle decimal inputs for accurate results.\", \"Fix issue: Change `input()` to `try: input()` and add error handling because it's essential to provide a robust solution.\"]"
+        }
+      },
+      {
+        "question_id": "q2",
+        "code": "n=int(input())\nprint(n**2)",
+        "score": null,
+        "passed": false,
+        "public_case_results": [],
+        "detailed_results": [],
+        "submitted_at": "2025-11-06T22:47:23.480375+00:00",
+        "is_final": true,
+        "status": "processing",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+        "department_name_snapshot": "Information Technology",
+        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+        "section_name_snapshot": "B",
+        "year_snapshot": 2
+      }
+    ],
+    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+    "department_name_snapshot": "Information Technology",
+    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+    "section_name_snapshot": "B",
+    "year_snapshot": 2
   }
 }

@@ -80,6 +80,7 @@ data/*.json
 *.swp
 *~
 .tunnel_url.txt
+.pids.txt
 
 # OS
 .DS_Store
@@ -118,4 +119,8 @@ Icon
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
+# Shell scripts (if you want to ignore temporary/test scripts)
+# Note: Main project scripts (start_all.sh, stop_all.sh, etc.) should be committed
+*.sh
 
