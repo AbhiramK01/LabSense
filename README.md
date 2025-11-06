@@ -554,7 +554,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - 📧 **Issues**: [GitHub Issues](https://github.com/AbhiramK01/LabSense/issues)
 - 📖 **Documentation**: See the [Documentation](#-documentation) section above
-- 💬 **Questions**: Open a discussion on GitHub
+- 💬 **Questions**: [GitHub Discussions](https://github.com/AbhiramK01/LabSense/discussions)
 
 ---
 
