@@ -50,38 +50,22 @@ No setup needed. Works for Python code only:
 uvicorn app.main:app --reload
 ```
 
-### Option 2: Judge0 for Multi-language Support
+### Option 2: Judge0 Cloud API for Multi-language Support
 For JavaScript, Java, C++, etc.:
 
-1. **Install Judge0 CE (Community Edition)**:
-```bash
-# Using Docker Compose
-git clone https://github.com/judge0/judge0.git
-cd judge0
-cp docker-compose.yml docker-compose.override.yml
-# Edit docker-compose.override.yml to expose port 2358
-docker-compose up -d
-```
+1. **Get RapidAPI Key**:
+   - Go to: https://rapidapi.com/judge0-official/api/judge0-ce
+   - Subscribe to the free tier
+   - Copy your API key
 
-2. **Set environment variable**:
+2. **Configure API Key**:
+   - Add your RapidAPI key to `app/evaluator/execute.py`
+   - See `setup_judge0_cloud.md` for detailed instructions
+
+3. **Set environment variable**:
 ```bash
-export LABSENSE_JUDGE0_URL="http://localhost:2358"
+export LABSENSE_JUDGE0_URL="https://judge0-ce.p.rapidapi.com"
 uvicorn app.main:app --reload
 ```
 
-3. **Test the evaluator**:
-```bash
-curl -X POST http://127.0.0.1:8000/evaluate \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "language": "python",
-    "student_code": "print(input())",
-    "ideal_code": "print(input())",
-    "test_cases": [
-      {"input":"5\n","expected_output":"5\n","is_public":true}
-    ]
-  }'
-```
-
-**Note**: Without Judge0, only Python evaluation works. With Judge0, all languages (Python, JavaScript, Java, C++, Go) are supported.
+**Note**: Without Judge0 Cloud API, only Python evaluation works. With Judge0 Cloud API, all languages (Python, JavaScript, Java, C++, Go) are supported.

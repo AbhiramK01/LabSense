@@ -3,7 +3,7 @@
 ## Current System Analysis
 
 ### ✅ What Works
-- Test case execution (Judge0 + local fallback)
+- Test case execution (Judge0 Cloud API + local fallback)
 - Public/private test case infrastructure exists (just not being used)
 - Detailed results tracking
 
