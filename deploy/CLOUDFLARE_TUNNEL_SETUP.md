@@ -26,10 +26,29 @@ git push -u origin main
 3. Connect your GitHub account → Select `LabSense` repo
 4. Build settings:
    - **Framework preset:** Vite
-   - **Build command:** `cd frontend && npm run build`
+   - **Build command:** `cd frontend && npm install && npm run build`
    - **Build output directory:** `frontend/dist`
    - **Root directory:** `/` (leave empty or set to root)
+   - **Node version:** 18 or higher
+   - **Environment variables:** (add these if needed)
+     - `NPM_FLAGS=--include=optional`
 5. Click **"Save and Deploy"**
+
+> ⚠️ **If build fails with Rollup error**: This is a known npm issue with optional dependencies. Try these solutions:
+> 
+> **Solution 1** (Recommended): Update build command to:
+> ```bash
+> cd frontend && rm -rf node_modules package-lock.json && npm install && npm run build
+> ```
+> 
+> **Solution 2**: Use npm ci with flags:
+> ```bash
+> cd frontend && npm ci --include=optional && npm run build
+> ```
+> 
+> **Solution 3**: Add environment variable in Cloudflare Pages:
+> - Go to Settings → Environment variables
+> - Add: `NPM_FLAGS` = `--include=optional`
 
 **You'll get:** `https://your-app-name.pages.dev` (always online!)
 
