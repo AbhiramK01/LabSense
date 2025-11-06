@@ -492,7 +492,7 @@ const StudentResults: React.FC<StudentResultsProps> = ({ onBack, refreshKey }) =
             finalAvg,
             perQuestionBestScores,
             perQuestionFinalScores,
-            submissions: submissions.map(s => ({ qid: s.question_id, score: s.score, status: s.status }))
+            submissions: submissions.map((s: any) => ({ qid: s.question_id, score: s.score, status: s.status }))
           });
           
           // Check if any submissions are still processing (only if no valid scores exist yet)
