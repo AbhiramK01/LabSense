@@ -39,6 +39,8 @@ env/
 *.log
 logs/
 backend.log
+tunnel.log
+tunnel_output.log
 
 # Environment variables
 .env
@@ -52,6 +54,7 @@ frontend/build/
 frontend/.vite/
 frontend/tsconfig.tsbuildinfo
 frontend/.DS_Store
+frontend/data/
 
 # Test files
 test_*.py
@@ -69,13 +72,14 @@ data/*.json
 *.map
 
 # Docker
-.dockerignore
+# Note: .dockerignore should be committed (it's a config file, not temporary)
 
 # Temporary files
 *.tmp
 *.bak
 *.swp
 *~
+.tunnel_url.txt
 
 # OS
 .DS_Store
@@ -93,4 +97,25 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Cloudflare Tunnel
+.cloudflared/
+*.cfargotunnel.com
+
+# Editor backups
+*.orig
+*.rej
+*_backup
+*_backup.*
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 

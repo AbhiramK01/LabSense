@@ -31,7 +31,7 @@ app.add_middleware(
 # Setup comprehensive error handling
 setup_error_handlers(app)
 
-app.include_router(api_router)
+app.include_router(api_router, prefix="/api")
 
 @app.get("/health")
 async def health_check():
