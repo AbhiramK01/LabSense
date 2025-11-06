@@ -41,7 +41,7 @@ Keep this terminal open, or run it as a background service.
 Create or update your `.env` file in the project root:
 
 ```bash
-cd /path/to/LabSense2
+cd /path/to/LabSense
 cat > .env << EOF
 LABSENSE_LLM_URL=http://localhost:11434
 LABSENSE_LLM_MODEL=llama3.1:8b
@@ -74,7 +74,7 @@ Instead of generic fallback messages, you'll get detailed, code-specific feedbac
 I've created a setup script for you. Run:
 
 ```bash
-cd /path/to/LabSense2
+cd /path/to/LabSense
 ./setup_local_llm.sh
 ```
 

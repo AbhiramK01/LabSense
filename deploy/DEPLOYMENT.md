@@ -26,8 +26,8 @@ sudo mkdir -p /var/www/certbot
 
 ## 4) Get the code on the VM
 ```bash
-git clone https://github.com/YOUR_USER/LabSense2.git
-cd LabSense2
+git clone https://github.com/AbhiramK01/LabSense.git
+cd LabSense
 ```
 
 ## 5) Configure environment

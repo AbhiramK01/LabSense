@@ -16,14 +16,14 @@ This is the **best free option** for students:
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/LabSense2.git
+git remote add origin https://github.com/AbhiramK01/LabSense.git
 git push -u origin main
 ```
 
 ### Step 2: Deploy to Cloudflare Pages
 1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com) → Sign up (free, no card)
 2. Click **"Workers & Pages"** → **"Create application"** → **"Pages"** → **"Connect to Git"**
-3. Connect your GitHub account → Select `LabSense2` repo
+3. Connect your GitHub account → Select `LabSense` repo
 4. Build settings:
    - **Framework preset:** Vite
    - **Build command:** `cd frontend && npm run build`
@@ -47,7 +47,7 @@ brew install cloudflare/cloudflare/cloudflared
 
 ### Step 4: Start your backend locally
 ```bash
-cd /path/to/LabSense2
+cd /path/to/LabSense
 # Make sure you have a virtual environment activated
 source venv/bin/activate  # or: python -m venv venv && source venv/bin/activate
 pip install -r app/requirements.txt

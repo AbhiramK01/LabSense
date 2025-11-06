@@ -65,8 +65,8 @@ git --version      # Should show version number
 ### Step 2: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/LabSense2.git
-cd LabSense2
+git clone https://github.com/AbhiramK01/LabSense.git
+cd LabSense
 ```
 
 > 💡 **Troubleshooting**: If you get "command not found: git", install Git from the link above.
@@ -141,7 +141,7 @@ cd ..
 Create a `.env` file in the project root for custom configuration:
 
 ```bash
-# In project root (LabSense2/)
+# In project root (LabSense/)
 cat > .env << EOF
 # JWT Secret Key (change this in production!)
 LABSENSE_SECRET_KEY=dev-secret-key-change-in-production
@@ -181,7 +181,7 @@ You need **two terminal windows/tabs** running simultaneously.
 
 ```bash
 # Make sure you're in project root
-cd /path/to/LabSense2
+cd /path/to/LabSense
 
 # Activate virtual environment
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -205,7 +205,7 @@ uvicorn app.main:app --reload
 
 ```bash
 # Make sure you're in project root
-cd /path/to/LabSense2
+cd /path/to/LabSense
 
 # Navigate to frontend
 cd frontend
@@ -298,7 +298,7 @@ npm run dev
 #### Still having issues?
 - 📘 Check [CHECK_LLM_STATUS.md](CHECK_LLM_STATUS.md) for LLM-related issues
 - 📘 Review error messages in terminal output
-- 📘 Check [GitHub Issues](https://github.com/yourusername/LabSense2/issues) for known problems
+- 📘 Check [GitHub Issues](https://github.com/AbhiramK01/LabSense/issues) for known problems
 
 ---
 
@@ -502,7 +502,7 @@ ollama run llama3.1:8b "Say hello"
 ## 📁 Project Structure
 
 ```
-LabSense2/
+LabSense/
 ├── app/                    # Backend FastAPI application
 │   ├── api/               # API routes
 │   ├── core/              # Core utilities (auth, errors)
@@ -552,7 +552,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-- 📧 **Issues**: [GitHub Issues](https://github.com/yourusername/LabSense2/issues)
+- 📧 **Issues**: [GitHub Issues](https://github.com/AbhiramK01/LabSense/issues)
 - 📖 **Documentation**: See the [Documentation](#-documentation) section above
 - 💬 **Questions**: Open a discussion on GitHub
 
