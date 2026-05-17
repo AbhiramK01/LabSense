@@ -1,0 +1,26 @@
+@startuml Existing Systems Context Diagram
+
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+
+title Existing Systems - Context Diagram
+
+rectangle "String/Token Methods\nMOSS, JPlag\n<color:#FF0000>❌</color> Surface-level" as string #FFF0F0
+rectangle "AST Based Methods\nDeckard\n<color:#FF0000>❌</color> Misses semantics" as ast #FFF0F0
+rectangle "PDG Based Methods\n<color:#FF0000>❌</color> Too slow" as pdg #FFF0F0
+
+rectangle "Existing Systems" as center #LightGray
+
+rectangle "ML Embedding Methods\ncode2vec, GNNs\n<color:#FF0000>❌</color> Needs training" as ml #FFF0F0
+rectangle "Grading Platforms\nHackerRank, LeetCode\n<color:#FF0000>❌</color> No AI" as grading #FFF0F0
+rectangle "LMS Plugins\nMoodle, Blackboard\n<color:#FF0000>❌</color> Basic" as lms #FFF0F0
+
+center -down-> string
+center -down-> ast
+center -down-> pdg
+
+center -up-> ml
+center -up-> grading
+center -up-> lms
+
+@enduml

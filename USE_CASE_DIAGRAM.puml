@@ -1,0 +1,56 @@
+@startuml LabSense Use Case Diagram
+
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+
+title LabSense - Use Case Diagram
+
+left to right direction
+
+rectangle "LabSense System" as System {
+  usecase "Take Exam" as UC1
+  usecase "Submit Code" as UC2
+  usecase "View Score" as UC3
+  usecase "Create Exam" as UC4
+  usecase "Manage Questions" as UC5
+  usecase "View Results" as UC6
+  usecase "Manage Users" as UC7
+  usecase "Manage College" as UC8
+  usecase "View Reports" as UC9
+  usecase "Manage All Colleges" as UC10
+  usecase "System Administration" as UC11
+  usecase "Export Data" as UC12
+}
+
+actor Student
+actor Faculty
+actor "College Admin" as CollegeAdmin
+actor "Super Admin" as SuperAdmin
+
+Student --> UC1 : Participate in exam
+Student --> UC2 : Submit solutions
+Student --> UC2 : Submit code
+Student --> UC3 : Check performance
+
+Faculty --> UC4 : Create assessments
+Faculty --> UC5 : Add questions
+Faculty --> UC5 : Monitor students
+Faculty --> UC6 : View student results
+
+CollegeAdmin --> UC7 : Manage college users
+CollegeAdmin --> UC8 : Configure college
+CollegeAdmin --> UC9 : Generate reports
+CollegeAdmin --> UC9 : View college reports
+
+SuperAdmin --> UC10 : Manage colleges
+SuperAdmin --> UC11 : System config
+SuperAdmin --> UC12 : Export system data
+SuperAdmin --> UC12 : Export all data
+
+@enduml
+
+
+
+
+
+

@@ -2,7 +2,7 @@ from typing import List, Tuple, Dict, Optional
 import asyncio
 
 from .ast_similarity import get_ast_similarity
-from .execute import judge0_execute, local_python_execute
+from .execute import judge0_execute, local_java_execute, local_python_execute
 from .llm_evaluator import get_llm_evaluator
 
 
@@ -34,8 +34,11 @@ async def evaluate_code_async(
 				safe_stdin = '\n'
 			elif not safe_stdin.endswith('\n'):
 				safe_stdin = safe_stdin + '\n'
-			if language == 'python' and not _has_judge0():
+			has_judge0 = _has_judge0()
+			if not has_judge0 and language == 'python':
 				out, err, code = local_python_execute(student_code, safe_stdin)
+			elif not has_judge0 and language == 'java':
+				out, err, code = local_java_execute(student_code, safe_stdin)
 			else:
 				out, err, code = judge0_execute(language, student_code, safe_stdin)
 				# If Judge0 fails with runtime error but we have output, use it

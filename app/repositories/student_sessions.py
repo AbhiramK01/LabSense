@@ -479,18 +479,25 @@ class StudentSessionRepository:
 		if self.is_exam_time_up(user_id, exam_id):
 			session = self._sessions.get((user_id, exam_id))
 			if session and not session.finished:
-				# Auto-submit current code before finishing
+				# Auto-submit buffered code for all assigned questions before finishing
+				submitted = 0
 				try:
-					if session.current_code is not None:
-						assigned = []
-						if isinstance(session.assigned_question, list):
-							assigned = session.assigned_question
-						elif isinstance(session.assigned_question, str) and session.assigned_question:
-							assigned = [session.assigned_question]
-						if assigned:
-							self.submit(user_id, exam_id, assigned[0], session.current_code)
+					submitted = self.submit_all_buffered(user_id, exam_id)
 				except Exception:
 					pass
+				# Fallback to legacy behaviour if nothing was submitted and we still have current_code
+				if submitted == 0:
+					try:
+						if session.current_code is not None:
+							assigned = []
+							if isinstance(session.assigned_question, list):
+								assigned = session.assigned_question
+							elif isinstance(session.assigned_question, str) and session.assigned_question:
+								assigned = [session.assigned_question]
+							if assigned:
+								self.submit(user_id, exam_id, assigned[0], session.current_code)
+					except Exception:
+						pass
 				session.finished = True
 				# Mark last submission as final
 				if session.submissions:
@@ -515,18 +522,24 @@ class StudentSessionRepository:
 		finished_count = 0
 		for (user_id, session_exam_id), session in self._sessions.items():
 			if session_exam_id == exam_id and not session.finished:
-				# Auto-submit current code before finishing
+				# Auto-submit buffered code for all assigned questions before finishing
+				submitted = 0
 				try:
-					if session.current_code is not None:
-						assigned = []
-						if isinstance(session.assigned_question, list):
-							assigned = session.assigned_question
-						elif isinstance(session.assigned_question, str) and session.assigned_question:
-							assigned = [session.assigned_question]
-						if assigned:
-							self.submit(user_id, exam_id, assigned[0], session.current_code)
+					submitted = self.submit_all_buffered(user_id, exam_id)
 				except Exception:
 					pass
+				if submitted == 0:
+					try:
+						if session.current_code is not None:
+							assigned = []
+							if isinstance(session.assigned_question, list):
+								assigned = session.assigned_question
+							elif isinstance(session.assigned_question, str) and session.assigned_question:
+								assigned = [session.assigned_question]
+							if assigned:
+								self.submit(user_id, exam_id, assigned[0], session.current_code)
+					except Exception:
+						pass
 				session.finished = True
 				# Mark last submission as final
 				if session.submissions:
@@ -723,6 +736,12 @@ class StudentSessionRepository:
 		sess = self._sessions.get((user_id, exam_id))
 		if not sess:
 			raise ValueError('no session')
+		if not sess.finished:
+			# Ensure buffered code is submitted before marking finished to avoid lost work
+			try:
+				self.submit_all_buffered(user_id, exam_id)
+			except Exception:
+				pass
 		sess.finished = True
 		# Mark the last submission as final, if any
 		if sess.submissions:

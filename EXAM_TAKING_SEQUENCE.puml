@@ -1,0 +1,56 @@
+@startuml LabSense Exam Taking Sequence
+
+skinparam defaultFontSize 11
+skinparam roundcorner 5
+
+title LabSense - Exam Taking Sequence
+
+actor Student
+participant Frontend
+participant "Backend API" as Backend
+database Database
+participant "Judge0 API" as Judge0
+
+== Student Login ==
+Student -> Frontend: Login
+Frontend -> Backend: POST /auth/login
+Backend -> Database: Validate credentials
+Database --> Backend: User data
+Backend --> Frontend: JWT token
+Frontend --> Student: Dashboard
+
+== Start Exam ==
+Student -> Frontend: Start exam
+Frontend -> Backend: GET /exams/{id}
+Backend -> Database: Fetch exam data
+Backend -> Database: Fetch exam questions
+Database --> Backend: Exam data
+Backend --> Frontend: Exam data
+Frontend --> Student: Display exam
+
+== Submit Code ==
+loop Multiple submissions
+  Student -> Frontend: Submit code
+  Frontend -> Backend: POST /submissions
+  Backend -> Database: Store submission
+  Backend -> Judge0: Execute code
+  Judge0 --> Backend: Execution results
+  Backend -> Database: Store results
+  Backend --> Frontend: Score & feedback
+  Frontend --> Student: Show results
+end
+
+== End Exam ==
+Student -> Frontend: End exam
+Frontend -> Backend: POST /sessions/end
+Backend -> Database: Update session
+Backend --> Frontend: Final score
+Frontend --> Student: Exam completed
+
+@enduml
+
+
+
+
+
+

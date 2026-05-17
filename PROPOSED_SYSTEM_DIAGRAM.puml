@@ -1,0 +1,26 @@
+@startuml Proposed System (LabSense) Context Diagram
+
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+
+title LabSense - Proposed System Context Diagram
+
+rectangle "AI-Assisted Evaluation\nLLM Integration\n<color:#00AA00>✔️</color> Logic & Semantics" as ai #F5FFF5
+rectangle "Insightful Reports\nAnalytics & Feedback\n<color:#00AA00>✔️</color> Detailed Insights" as reports #F5FFF5
+rectangle "Lab Layout & Proctoring\nUnique Questions\n<color:#00AA00>✔️</color> Anti-Cheat" as proctoring #F5FFF5
+
+rectangle "LabSense Platform" as center #LightBlue
+
+rectangle "Multi-Language Support\nPython, JS, Java, C, C++, Go\n<color:#00AA00>✔️</color> Universal" as multilang #F5FFF5
+rectangle "Multi-Tenant Architecture\nCollege/Dept/Section\n<color:#00AA00>✔️</color> Scalable" as multitenant #F5FFF5
+rectangle "Real-time Monitoring\nFullscreen, Tab Detection\n<color:#00AA00>✔️</color> Secure" as monitoring #F5FFF5
+
+center -down-> ai
+center -down-> reports
+center -down-> proctoring
+
+center -up-> multilang
+center -up-> multitenant
+center -up-> monitoring
+
+@enduml

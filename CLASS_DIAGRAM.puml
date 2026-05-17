@@ -1,0 +1,204 @@
+@startuml LabSense Class Diagram
+
+skinparam defaultFontSize 16
+skinparam classFontSize 18
+skinparam classAttributeFontSize 14
+skinparam classMethodFontSize 14
+skinparam roundcorner 1
+skinparam Padding 1
+skinparam MaxMessageSize 35
+skinparam linetype ortho
+skinparam shadowing false
+skinparam class {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+  ArrowColor #999999
+  FontColor #000000
+}
+skinparam arrow {
+  Color #999999
+  Thickness 1
+  FontSize 11
+}
+skinparam packageStyle rectangle
+skinparam spacing 5
+skinparam minClassWidth 0
+skinparam minClassHeight 0
+
+title LabSense - Class Diagram
+
+left to right direction
+skinparam nodesep 20
+skinparam ranksep 25
+skinparam style strictuml
+skinparam note {
+  BackgroundColor #FFFFFF
+  BorderColor #999999
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  FACULTY
+  STUDENT
+}
+
+class User {
+  - id: UUID
+  - username: str
+  - email: str
+  - hashed_password: str
+  - role: UserRole
+  - college_id: UUID
+  - department_id: UUID
+  - year: int
+  - section_id: UUID
+  - roll_number: str
+  - created_at: datetime
+  - updated_at: datetime
+  - is_active: bool
+  + authenticate(password: str): bool
+  + get_full_name(): str
+  + is_admin(): bool
+  + is_faculty(): bool
+  + is_student(): bool
+}
+
+class College {
+  - id: UUID
+  - name: str
+  - address: str
+  - code: str
+  - logo_url: str
+  - created_at: datetime
+  - updated_at: datetime
+  - is_active: bool
+  + get_admin(): User
+  + get_students(): List[User]
+  + get_faculty(): List[User]
+  + is_code_unique(code: str): bool
+}
+
+class Department {
+  - id: UUID
+  - name: str
+  - college_id: UUID
+  - created_at: datetime
+  - updated_at: datetime
+  - is_active: bool
+  + get_students(): List[User]
+  + get_faculty(): List[User]
+  + is_name_unique(name: str): bool
+}
+
+class Year {
+  - id: UUID
+  - year: int
+  - college_id: UUID
+  - created_at: datetime
+  - updated_at: datetime
+  - is_active: bool
+  + get_students(): List[User]
+  + is_year_unique(year: int): bool
+}
+
+class Section {
+  - id: UUID
+  - name: str
+  - college_id: UUID
+  - created_at: datetime
+  - updated_at: datetime
+  - is_active: bool
+  + get_students(): List[User]
+  + is_name_unique(name: str): bool
+}
+
+class Exam {
+  - exam_id: str
+  - subject_name: str
+  - duration_minutes: int
+  - is_live: bool
+  - exam_version: int
+  - college_id: UUID
+  - faculty_id: UUID
+  - layout_data: dict
+  - created_at: datetime
+  - updated_at: datetime
+  - start_time: datetime
+  - end_time: datetime
+  + start_exam(): bool
+  + end_exam(): bool
+  + is_active(): bool
+  + get_questions(): List[ExamQuestion]
+  + add_question(question: ExamQuestion): void
+}
+
+class ExamQuestion {
+  - id: UUID
+  - exam_id: str
+  - question_id: str
+  - system_number: int
+  - question_text: str
+  - ideal_solution: str
+  - test_cases: List[TestCase]
+  - language: str
+  - created_at: datetime
+  - updated_at: datetime
+  + validate_solution(code: str): bool
+  + run_test_cases(code: str): TestResult
+  + get_expected_output(): str
+}
+
+class Session {
+  - user_id: UUID
+  - exam_id: str
+  - start_time: datetime
+  - end_time: datetime
+  - finished: bool
+  - exam_version: int
+  - submissions: dict
+  - last_activity: datetime
+  + start_session(): void
+  + end_session(): void
+  + add_submission(submission: Submission): void
+  + get_time_remaining(): int
+  + is_expired(): bool
+}
+
+class Submission {
+  - id: UUID
+  - student_id: UUID
+  - exam_id: str
+  - question_id: str
+  - language: str
+  - student_code: str
+  - score: float
+  - feedback: str
+  - correctness: float
+  - logic_similarity: float
+  - effort: float
+  - timestamp: datetime
+  - execution_time: float
+  - memory_used: int
+  + calculate_score(): float
+  + generate_feedback(): str
+  + is_passing(): bool
+}
+
+User "1" --> "1" UserRole : has
+User "*" --> "1" College : belongs_to
+User "*" --> "1" Department : enrolled_in
+User "*" --> "1" Year : enrolled_in
+User "*" --> "1" Section : enrolled_in
+College "1" --> "*" Department : contains
+College "1" --> "*" Year : contains
+College "1" --> "*" Section : contains
+User "1" --> "*" Exam : creates
+Exam "1" --> "*" ExamQuestion : contains
+Exam "1" --> "*" Session : hosts
+Session "1" --> "*" Submission : includes
+User "1" --> "*" Session : initiates
+User "1" --> "*" Submission : makes
+ExamQuestion "1" --> "*" Submission : receives
+
+@enduml

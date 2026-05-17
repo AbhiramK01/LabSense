@@ -1,0 +1,98 @@
+@startuml LabSense System Architecture
+
+skinparam defaultFontSize 16
+skinparam classFontSize 18
+skinparam roundcorner 2
+skinparam Padding 2
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #F5F5F5
+  BorderColor #999999
+  FontColor #000000
+}
+skinparam rectangle {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+  FontColor #000000
+}
+skinparam database {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+  FontColor #000000
+}
+skinparam actor {
+  BackgroundColor #FFFFFF
+  BorderColor #999999
+}
+skinparam arrow {
+  Color #999999
+  Thickness 1
+  FontSize 12
+}
+
+title LabSense - System Architecture
+
+package "Presentation Layer" {
+  actor Student
+  actor Faculty
+  actor "College Admin" as CollegeAdmin
+  actor "Super Admin" as SuperAdmin
+  
+  package "User Interface" {
+    rectangle "Student Dashboard" as StudentDashboard
+    rectangle "Faculty Dashboard" as FacultyDashboard
+    rectangle "Admin Dashboard" as AdminDashboard
+    rectangle "Super Admin Dashboard" as SuperAdminDashboard
+  }
+}
+
+package "Application Layer" {
+  rectangle "API SERVER" as APIServer #E8E8E8
+  
+  rectangle "Authentication Module" as AuthModule
+  rectangle "Exam Management" as ExamMgmt
+  rectangle "User Management" as UserMgmt
+  rectangle "Code Evaluation" as CodeEval
+  rectangle "Multi-tenancy Control" as MultiTenant
+}
+
+package "Data Layer" {
+  database "SYSTEM DATABASE" as Database #E8E8E8
+  
+  rectangle "Users Data" as UsersData
+  rectangle "Exams Data" as ExamsData
+  rectangle "Submissions Data" as SubmissionsData
+  rectangle "Colleges Data" as CollegesData
+  rectangle "Sessions Data" as SessionsData
+}
+
+Student --> StudentDashboard : Take Exams
+Faculty --> FacultyDashboard : Create Exams
+CollegeAdmin --> AdminDashboard : Manage Users
+SuperAdmin --> SuperAdminDashboard : Manage Colleges
+
+StudentDashboard --> APIServer : Submit Code
+FacultyDashboard --> APIServer : Create Exam
+AdminDashboard --> APIServer : Manage Users
+SuperAdminDashboard --> APIServer : Manage Colleges
+
+APIServer --> AuthModule : Validate Users
+APIServer --> ExamMgmt : Process Exams
+APIServer --> UserMgmt : Handle Users
+APIServer --> CodeEval : Evaluate Code
+APIServer --> MultiTenant : College Isolation
+
+AuthModule --> Database : Check Credentials
+ExamMgmt --> Database : Store Exams
+UserMgmt --> Database : Manage Users
+CodeEval --> Database : Store Results
+MultiTenant --> Database : Data Scoping
+
+Database --> UsersData : User Operations
+Database --> ExamsData : Exam Operations
+Database --> SubmissionsData : Submission Operations
+Database --> CollegesData : College Operations
+Database --> SessionsData : Session Operations
+
+@enduml

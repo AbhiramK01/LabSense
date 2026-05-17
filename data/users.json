@@ -11,54 +11,6 @@
     "roll_number": null,
     "college_id": null
   },
-  "202158a2-6c09-44ae-9378-20d7ae77b07b": {
-    "id": "202158a2-6c09-44ae-9378-20d7ae77b07b",
-    "username": "mgitadmin",
-    "email": "mgitadmin@email.com",
-    "hashed_password": "$2b$12$PXwoaB8wF44.9Zyn/JfPCO7.z9gm.SUoyIfWHgTi674Fm29OgnOYq",
-    "role": "admin",
-    "department_id": null,
-    "year": null,
-    "section_id": null,
-    "roll_number": null,
-    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
-  },
-  "3d226aae-da9f-4f4d-9f29-6581bdb4d062": {
-    "id": "3d226aae-da9f-4f4d-9f29-6581bdb4d062",
-    "username": "vasaviadmin",
-    "email": "vasaviadmin@email.com",
-    "hashed_password": "$2b$12$YFTEQnSQb9UAXf32As.B0uZQJSH3yY9Iv2FpTdW/kLEd/euYrfmiq",
-    "role": "admin",
-    "department_id": null,
-    "year": null,
-    "section_id": null,
-    "roll_number": null,
-    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
-  },
-  "c1ff57e7-df44-474a-8655-d303c36c7795": {
-    "id": "c1ff57e7-df44-474a-8655-d303c36c7795",
-    "username": "abhi",
-    "email": "ab@email.com",
-    "hashed_password": "$2b$12$c3MC3iLvI/gaaXmn0kKsRe3CuDOQDEdOfznWKHOhXnVBxJmP5QaKK",
-    "role": "faculty",
-    "department_id": null,
-    "year": null,
-    "section_id": null,
-    "roll_number": null,
-    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
-  },
-  "c579eb9d-66b6-4861-b415-9f329d764f29": {
-    "id": "c579eb9d-66b6-4861-b415-9f329d764f29",
-    "username": "sai",
-    "email": "sai@email.com",
-    "hashed_password": "$2b$12$S1S1itmzuN3vj5UEMmHOpu9DKtD.wf.x3Fl7qfR0ilEIEEvab3T8O",
-    "role": "faculty",
-    "department_id": null,
-    "year": null,
-    "section_id": null,
-    "roll_number": null,
-    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
-  },
   "a4e5deaf-0009-4716-aa3f-7385ee2aab52": {
     "id": "a4e5deaf-0009-4716-aa3f-7385ee2aab52",
     "username": "sainadh",
@@ -70,42 +22,6 @@
     "section_id": "76c696aa-9213-4b02-b764-f859c74a81f9",
     "roll_number": "22261A0599",
     "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
-  },
-  "7a27b6b1-c3d1-447a-86e9-429dc4296ad6": {
-    "id": "7a27b6b1-c3d1-447a-86e9-429dc4296ad6",
-    "username": "venkat",
-    "email": "vk@email.com",
-    "hashed_password": "$2b$12$zIGjEtNc.dQtBOXhwcq55efnYvmw.I8z5ts0fa0YMAdcSNlZ9nh96",
-    "role": "student",
-    "department_id": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-    "year": 4,
-    "section_id": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-    "roll_number": "22261A0598",
-    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
-  },
-  "c8ef4feb-c0d5-4bd9-be96-172c934d1036": {
-    "id": "c8ef4feb-c0d5-4bd9-be96-172c934d1036",
-    "username": "abhiram",
-    "email": "ak@email.com",
-    "hashed_password": "$2b$12$4L/49DV5TbjBXhxiizA47.FfMwRJvmHrW3j.8ejY8NZTf6ap6RGqe",
-    "role": "student",
-    "department_id": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-    "year": 4,
-    "section_id": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-    "roll_number": "22261A0586",
-    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
-  },
-  "c302b73e-9fe5-4620-8730-991e0ef924e9": {
-    "id": "c302b73e-9fe5-4620-8730-991e0ef924e9",
-    "username": "jashvanth",
-    "email": "kj@email.com",
-    "hashed_password": "$2b$12$vUEIo.lhGCzBje779L/wk.jiT8IFjTQXba4kj6OyfsDMAj5hHDl7i",
-    "role": "faculty",
-    "department_id": null,
-    "year": null,
-    "section_id": null,
-    "roll_number": null,
-    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
   },
   "3531bf69-25a4-4468-b104-cc98a072982c": {
     "id": "3531bf69-25a4-4468-b104-cc98a072982c",
@@ -155,18 +71,6 @@
     "roll_number": "22261A05C3",
     "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
   },
-  "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5": {
-    "id": "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5",
-    "username": "prat",
-    "email": "pk@email.com",
-    "hashed_password": "$2b$12$Hob8Nw90LXTL1Iu7V//vKOTipX4uQsK6bkTd0GZq3HC2Jnbs61RlC",
-    "role": "student",
-    "department_id": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "year": 2,
-    "section_id": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "roll_number": "22261A05A9",
-    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
-  },
   "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9": {
     "id": "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9",
     "username": "vamsi",
@@ -177,6 +81,138 @@
     "year": 2,
     "section_id": "76c696aa-9213-4b02-b764-f859c74a81f9",
     "roll_number": "22261A0588",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
+  },
+  "a0e6ef52-650e-4932-80c2-a60f0609b6d3": {
+    "id": "a0e6ef52-650e-4932-80c2-a60f0609b6d3",
+    "username": "ganjaigoud",
+    "email": "gg@email.com",
+    "hashed_password": "$2b$12$xWCfhIGmH/C0cAkjqTQFTOFcK2Zec8cVH/9/S8zOwdYzqJ0mYPBBO",
+    "role": "faculty",
+    "department_id": null,
+    "year": null,
+    "section_id": null,
+    "roll_number": null,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
+  },
+  "5ea684af-44c9-4bf3-aec3-b6eb2b8460d7": {
+    "id": "5ea684af-44c9-4bf3-aec3-b6eb2b8460d7",
+    "username": "sanjay",
+    "email": "chs@email.com",
+    "hashed_password": "$2b$12$ThG8jtswISXa/c4FPlQ7I.9mhlz6.QBYeomfe45kf2I4WWfguGAdK",
+    "role": "student",
+    "department_id": "ae715076-f679-40ba-a034-fd86f0492698",
+    "year": 4,
+    "section_id": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+    "roll_number": "23265A0511",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
+  },
+  "c579eb9d-66b6-4861-b415-9f329d764f29": {
+    "id": "c579eb9d-66b6-4861-b415-9f329d764f29",
+    "username": "sai",
+    "email": "sai@email.com",
+    "hashed_password": "$2b$12$HvYCmYOie/ybt6uMWSwC3uotYEojaWOPvN1GQp/VoBnDQe.jCmfgq",
+    "role": "faculty",
+    "department_id": null,
+    "year": null,
+    "section_id": null,
+    "roll_number": null,
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
+  },
+  "d94b59a6-3c78-4f3b-b6a5-2e32d4bf3dfa": {
+    "id": "d94b59a6-3c78-4f3b-b6a5-2e32d4bf3dfa",
+    "username": "abhiram",
+    "email": "ak@email.com",
+    "hashed_password": "$2b$12$QEks2mZV09z35oM34j65H.veUxkIOxXdeCDJRpF294DwK1yQw5KEm",
+    "role": "student",
+    "department_id": "ae715076-f679-40ba-a034-fd86f0492698",
+    "year": 4,
+    "section_id": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+    "roll_number": "1",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
+  },
+  "6ae64b7e-e0a5-4207-905c-9db457e2812d": {
+    "id": "6ae64b7e-e0a5-4207-905c-9db457e2812d",
+    "username": "abhi",
+    "email": "abhi@email.com",
+    "hashed_password": "$2b$12$7OxjpxWYNCCJ/imSbN/aVeOLmb5v6SBO8DDSFeti3Y4Utx/bDAGAa",
+    "role": "faculty",
+    "department_id": null,
+    "year": null,
+    "section_id": null,
+    "roll_number": null,
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
+  },
+  "77f8b5c9-9aca-45e4-9313-d381cb146be2": {
+    "id": "77f8b5c9-9aca-45e4-9313-d381cb146be2",
+    "username": "abhiramk",
+    "email": "abhiramk@email.com",
+    "hashed_password": "$2b$12$HnuQT0B8qVZViTCM75lwZeJ2FzNhuPKFNSlOV9Pb23AeL.pOKO4Mq",
+    "role": "student",
+    "department_id": "fbbf195a-488a-4e56-a45c-6cf65cb7d048",
+    "year": 4,
+    "section_id": "18aafe38-169f-423e-ad09-28829e57533d",
+    "roll_number": "1",
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
+  },
+  "ddffdf0c-f1b9-46f6-8f91-b52c25d83333": {
+    "id": "ddffdf0c-f1b9-46f6-8f91-b52c25d83333",
+    "username": "akhilroy",
+    "email": "akhilroy@email.com",
+    "hashed_password": "$2b$12$toqM1m2qQccSvsE4tb8hAenLKaS5aB2XjIDcOTJ4t3ZFlav85ZBe6",
+    "role": "student",
+    "department_id": "ae715076-f679-40ba-a034-fd86f0492698",
+    "year": 4,
+    "section_id": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+    "roll_number": "23265A0514",
+    "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
+  },
+  "09561b6f-7609-42ea-8d8a-a9bf6660df0f": {
+    "id": "09561b6f-7609-42ea-8d8a-a9bf6660df0f",
+    "username": "saisai",
+    "email": "saisai@email.com",
+    "hashed_password": "$2b$12$022dvRT2rQGGsDADqEqdOOgwu23txiQATmneLIyrr3DUjoOXKjHkm",
+    "role": "faculty",
+    "department_id": null,
+    "year": null,
+    "section_id": null,
+    "roll_number": null,
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
+  },
+  "4e0bd208-895f-4219-a65d-0d33e7877ee8": {
+    "id": "4e0bd208-895f-4219-a65d-0d33e7877ee8",
+    "username": "sainadhm",
+    "email": "sm@email.com",
+    "hashed_password": "$2b$12$NbLCv2mAIBdHfjsx.QD4luYmtjKEmeVKwtvya6g0ekBXwTRrxor2K",
+    "role": "student",
+    "department_id": "fbbf195a-488a-4e56-a45c-6cf65cb7d048",
+    "year": 4,
+    "section_id": "18aafe38-169f-423e-ad09-28829e57533d",
+    "roll_number": "22261A0599",
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
+  },
+  "202158a2-6c09-44ae-9378-20d7ae77b07b": {
+    "id": "202158a2-6c09-44ae-9378-20d7ae77b07b",
+    "username": "mgitadmin",
+    "email": "mgitadmin@email.com",
+    "hashed_password": "$2b$12$PXwoaB8wF44.9Zyn/JfPCO7.z9gm.SUoyIfWHgTi674Fm29OgnOYq",
+    "role": "admin",
+    "department_id": null,
+    "year": null,
+    "section_id": null,
+    "roll_number": null,
+    "college_id": "a6eaa113-d7fd-441b-ba5b-222f4b46e7a1"
+  },
+  "3d226aae-da9f-4f4d-9f29-6581bdb4d062": {
+    "id": "3d226aae-da9f-4f4d-9f29-6581bdb4d062",
+    "username": "vasaviadmin",
+    "email": "vasaviadmin@email.com",
+    "hashed_password": "$2b$12$YFTEQnSQb9UAXf32As.B0uZQJSH3yY9Iv2FpTdW/kLEd/euYrfmiq",
+    "role": "admin",
+    "department_id": null,
+    "year": null,
+    "section_id": null,
+    "roll_number": null,
     "college_id": "a0fe2d34-04b3-4ece-8407-1093f30717eb"
   }
 }

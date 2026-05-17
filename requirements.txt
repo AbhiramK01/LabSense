@@ -9,6 +9,7 @@ bcrypt==3.2.2
 asttokens==2.4.1
 requests==2.32.3
 aiohttp==3.10.0
+Pygments==2.18.0
 # LLM support (optional - install only if using API)
 # openai>=1.0.0  # Uncomment for OpenAI API
 # anthropic>=0.18.0  # Uncomment for Anthropic API

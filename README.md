@@ -44,6 +44,7 @@ Follow these steps to get LabSense running on your local machine in minutes.
 
 **Required:**
 - **Python 3.9 or higher** - [Download Python](https://www.python.org/downloads/)
+- **JDK 17 or higher** - Needed for local Java evaluation when Judge0 is not configured
 - **Node.js 18 or higher** - [Download Node.js](https://nodejs.org/)
 - **Git** - [Download Git](https://git-scm.com/downloads)
 
@@ -61,7 +62,7 @@ git --version      # Should show version number
 
 > ⚠️ **Note**: The app works without LLM/Judge0, but with limited features:
 > - Without LLM: Basic heuristic evaluation (no AI feedback)
-> - Without Judge0: Only Python code execution supported
+> - Without Judge0: Local code execution is supported for Python and Java
 
 ---
 

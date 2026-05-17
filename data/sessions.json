@@ -1,864 +1,4 @@
 {
-  "c8ef4feb-c0d5-4bd9-be96-172c934d1036|3": {
-    "serial_number": 9,
-    "assigned_question": [
-      "q1",
-      "q4"
-    ],
-    "finished": true,
-    "joined_at": 1761852393.4862342,
-    "serial_deadline": 1761852513.4862342,
-    "exam_start_time": 1761852397.982914,
-    "exam_duration_minutes": 2,
-    "exam_end_time": 1761852517.982914,
-    "current_code": "print('4')",
-    "last_save_time": 1761853508.183407,
-    "per_question_code": {},
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "print('1')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "1",
-            "actual_output": "1\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.5414068698883057
-          }
-        ],
-        "submitted_at": "2025-10-30T19:27:10.646047+00:00",
-        "is_final": false,
-        "is_best": true
-      },
-      {
-        "question_id": "q4",
-        "code": "print('1')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "4",
-            "actual_output": "1\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.4643819332122803
-          }
-        ],
-        "submitted_at": "2025-10-30T19:27:17.300514+00:00",
-        "is_final": false,
-        "is_best": false
-      },
-      {
-        "question_id": "q4",
-        "code": "print('4')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "4",
-            "actual_output": "4\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.2929198741912842
-          }
-        ],
-        "submitted_at": "2025-10-30T19:27:25.187076+00:00",
-        "is_final": true,
-        "is_best": true
-      },
-      {
-        "question_id": "q1",
-        "code": "print('4')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "1",
-            "actual_output": "4\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.4816572666168213
-          }
-        ],
-        "submitted_at": "2025-10-30T19:28:38.582382+00:00",
-        "is_final": true,
-        "is_best": false
-      }
-    ],
-    "department_id_snapshot": null,
-    "department_name_snapshot": null,
-    "section_id_snapshot": null,
-    "section_name_snapshot": null,
-    "year_snapshot": null
-  },
-  "c8ef4feb-c0d5-4bd9-be96-172c934d1036|4": {
-    "serial_number": 4,
-    "assigned_question": [
-      "q1",
-      "q4"
-    ],
-    "finished": true,
-    "joined_at": 1761896559.6038651,
-    "serial_deadline": 1761896679.6038651,
-    "exam_start_time": 1761896561.729964,
-    "exam_duration_minutes": 2,
-    "exam_end_time": 1761896681.729964,
-    "current_code": "print('1')",
-    "last_save_time": 1761896773.5333729,
-    "per_question_code": {
-      "q1": "print('1')",
-      "q4": "print('4')"
-    },
-    "submissions": [
-      {
-        "question_id": "q4",
-        "code": "print('3')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "4",
-            "actual_output": "3\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.2995340824127197
-          }
-        ],
-        "submitted_at": "2025-10-31T07:42:57.253430+00:00",
-        "is_final": false,
-        "is_best": false
-      },
-      {
-        "question_id": "q1",
-        "code": "print('2')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "1",
-            "actual_output": "2\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.28415703773498535
-          }
-        ],
-        "submitted_at": "2025-10-31T07:43:04.391458+00:00",
-        "is_final": false,
-        "is_best": false
-      },
-      {
-        "question_id": "q1",
-        "code": "print('1')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "1",
-            "actual_output": "1\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.28304171562194824
-          }
-        ],
-        "submitted_at": "2025-10-31T07:43:27.449162+00:00",
-        "is_final": true,
-        "is_best": true
-      },
-      {
-        "question_id": "q4",
-        "code": "print('4')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "4",
-            "actual_output": "4\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.2713479995727539
-          }
-        ],
-        "submitted_at": "2025-10-31T07:43:27.721573+00:00",
-        "is_final": true,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": null,
-    "department_name_snapshot": null,
-    "section_id_snapshot": null,
-    "section_name_snapshot": null,
-    "year_snapshot": null
-  },
-  "7a27b6b1-c3d1-447a-86e9-429dc4296ad6|5": {
-    "serial_number": 1,
-    "assigned_question": [
-      "q1",
-      "q3"
-    ],
-    "finished": true,
-    "joined_at": 1761905565.617454,
-    "serial_deadline": 1761905685.617454,
-    "exam_start_time": 1761905566.581088,
-    "exam_duration_minutes": 2,
-    "exam_end_time": 1761905686.581088,
-    "current_code": "print('3')",
-    "last_save_time": 1761905591.485319,
-    "per_question_code": {
-      "q1": "print('1')",
-      "q3": "print('3')"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "print('1')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "1",
-            "actual_output": "1\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.28577208518981934
-          }
-        ],
-        "submitted_at": "2025-10-31T10:13:13.062259+00:00",
-        "is_final": false,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 3
-      },
-      {
-        "question_id": "q3",
-        "code": "print('3')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "3",
-            "actual_output": "3\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.2587599754333496
-          }
-        ],
-        "submitted_at": "2025-10-31T10:13:13.326172+00:00",
-        "is_final": true,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 3
-      }
-    ],
-    "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-    "department_name_snapshot": "IT",
-    "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-    "section_name_snapshot": "2",
-    "year_snapshot": 3
-  },
-  "c8ef4feb-c0d5-4bd9-be96-172c934d1036|5": {
-    "serial_number": 2,
-    "assigned_question": [
-      "q2",
-      "q4"
-    ],
-    "finished": true,
-    "joined_at": 1761915966.394767,
-    "serial_deadline": 1761916086.394767,
-    "exam_start_time": 1761915968.34742,
-    "exam_duration_minutes": 2,
-    "exam_end_time": 1761916088.34742,
-    "current_code": "print('2')",
-    "last_save_time": 1761915994.182539,
-    "per_question_code": {
-      "q2": "print('2')",
-      "q4": "print('4')"
-    },
-    "submissions": [
-      {
-        "question_id": "q4",
-        "code": "print('3')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "4",
-            "actual_output": "3\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.28867006301879883
-          }
-        ],
-        "submitted_at": "2025-10-31T13:06:23.939050+00:00",
-        "is_final": false,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 3,
-        "is_best": false
-      },
-      {
-        "question_id": "q2",
-        "code": "print('1')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "2",
-            "actual_output": "1\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.2903099060058594
-          }
-        ],
-        "submitted_at": "2025-10-31T13:06:30.218438+00:00",
-        "is_final": false,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 3,
-        "is_best": false
-      },
-      {
-        "question_id": "q2",
-        "code": "print('2')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "2",
-            "actual_output": "2\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.28939127922058105
-          }
-        ],
-        "submitted_at": "2025-10-31T13:06:37.151923+00:00",
-        "is_final": true,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 3,
-        "is_best": true
-      },
-      {
-        "question_id": "q4",
-        "code": "print('4')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "4",
-            "actual_output": "4\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.2645401954650879
-          }
-        ],
-        "submitted_at": "2025-10-31T13:06:37.422162+00:00",
-        "is_final": true,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 3,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-    "department_name_snapshot": "IT",
-    "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-    "section_name_snapshot": "2",
-    "year_snapshot": 3
-  },
-  "c8ef4feb-c0d5-4bd9-be96-172c934d1036|1": {
-    "serial_number": 1,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1761989372.428471,
-    "serial_deadline": 1761989492.428471,
-    "exam_start_time": 1761989373.742016,
-    "exam_duration_minutes": 2,
-    "exam_end_time": 1761989493.742016,
-    "current_code": "print('hello')",
-    "last_save_time": 1761989585.889697,
-    "per_question_code": {
-      "q1": "print('hello')"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "print('hello')",
-        "score": 65.03,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "hello",
-            "actual_output": "hello\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 2.280534029006958
-          }
-        ],
-        "submitted_at": "2025-11-01T09:30:00.229893+00:00",
-        "is_final": true,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 4,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-    "department_name_snapshot": "IT",
-    "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-    "section_name_snapshot": "2",
-    "year_snapshot": 4
-  },
-  "c8ef4feb-c0d5-4bd9-be96-172c934d1036|6": {
-    "serial_number": 1,
-    "assigned_question": [
-      "q2",
-      "q3"
-    ],
-    "finished": true,
-    "joined_at": 1762010115.789173,
-    "serial_deadline": 1762010235.789173,
-    "exam_start_time": 1762010125.517715,
-    "exam_duration_minutes": 2,
-    "exam_end_time": 1762010245.517715,
-    "current_code": "print('3')",
-    "last_save_time": 1762010161.09078,
-    "per_question_code": {
-      "q2": "print('1')",
-      "q3": "print('3')"
-    },
-    "submissions": [
-      {
-        "question_id": "q2",
-        "code": "print('1')",
-        "score": 40.02,
-        "passed": false,
-        "public_case_results": [
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "2",
-            "actual_output": "1\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.7143020629882812
-          }
-        ],
-        "submitted_at": "2025-11-01T15:15:36.661869+00:00",
-        "is_final": false,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 4
-      },
-      {
-        "question_id": "q3",
-        "code": "print('3')",
-        "score": 65.02,
-        "passed": true,
-        "public_case_results": [
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "",
-            "expected_output": "3",
-            "actual_output": "3\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 2.0941309928894043
-          }
-        ],
-        "submitted_at": "2025-11-01T15:16:08.324077+00:00",
-        "is_final": true,
-        "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-        "department_name_snapshot": "IT",
-        "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-        "section_name_snapshot": "2",
-        "year_snapshot": 4
-      }
-    ],
-    "department_id_snapshot": "e9fd8169-d9a8-4689-97ff-b19fa94ccd50",
-    "department_name_snapshot": "IT",
-    "section_id_snapshot": "625db6ec-40fb-48e8-a8ce-ddfb3e10f894",
-    "section_name_snapshot": "2",
-    "year_snapshot": 4
-  },
-  "a4e5deaf-0009-4716-aa3f-7385ee2aab52|1": {
-    "serial_number": 2,
-    "assigned_question": [
-      "q2"
-    ],
-    "finished": true,
-    "joined_at": 1762019744.650369,
-    "serial_deadline": 1762019864.650369,
-    "exam_start_time": 1762019752.6223621,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762020472.6223621,
-    "current_code": "m=int(input())\nprint(m*m)",
-    "last_save_time": 1762019788.308563,
-    "per_question_code": {
-      "q2": "m=int(input())\nprint(m*m)"
-    },
-    "submissions": [
-      {
-        "question_id": "q2",
-        "code": "m=int(input())\nprint(m*m)",
-        "score": 65.06,
-        "passed": true,
-        "public_case_results": [
-          true,
-          true,
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "4\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 2.5625879764556885
-          },
-          {
-            "input": "3",
-            "expected_output": "9",
-            "actual_output": "9\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.3967058658599854
-          },
-          {
-            "input": "4",
-            "expected_output": "16",
-            "actual_output": "16\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.7831919193267822
-          }
-        ],
-        "submitted_at": "2025-11-01T17:56:35.152460+00:00",
-        "is_final": true,
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "3531bf69-25a4-4468-b104-cc98a072982c|1": {
-    "serial_number": 1,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1762020820.4512901,
-    "serial_deadline": 1762020940.4512901,
-    "exam_start_time": 1762020821.299593,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762021541.299593,
-    "current_code": "a=int(input())\nif a%2==0:\n    print('even')\nelse:\n    print('odd')",
-    "last_save_time": 1762020857.673297,
-    "per_question_code": {
-      "q1": "a=int(input())\nif a%2==0:\n    print('even')\nelse:\n    print('odd')"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "a=int(input())\nif a%2==0:\n    print('even')\nelse:\n    print('odd')",
-        "score": 65.65,
-        "passed": true,
-        "public_case_results": [
-          true,
-          true,
-          true,
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "odd\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.7446951866149902
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "odd\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.3373839855194092
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "even\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.7429051399230957
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "even\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.5060579776763916
-          }
-        ],
-        "submitted_at": "2025-11-01T18:14:26.889112+00:00",
-        "is_final": true,
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "d229d284-72d8-4e20-ab09-9658b0234bc4|1": {
-    "serial_number": 10,
-    "assigned_question": [
-      "q2"
-    ],
-    "finished": true,
-    "joined_at": 1762021475.772782,
-    "serial_deadline": 1762021595.772782,
-    "exam_start_time": 1762021515.583712,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762022235.583712,
-    "current_code": "n=int(input())\nprint(n**2)",
-    "last_save_time": 1762021539.222791,
-    "per_question_code": {
-      "q2": "n=int(input())\nprint(n**2)"
-    },
-    "submissions": [
-      {
-        "question_id": "q2",
-        "code": "n=int(input())\nprint(n**2)",
-        "score": 53.06,
-        "passed": true,
-        "public_case_results": [
-          true,
-          true,
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "4\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.5046107769012451
-          },
-          {
-            "input": "3",
-            "expected_output": "9",
-            "actual_output": "9\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.307229995727539
-          },
-          {
-            "input": "4",
-            "expected_output": "16",
-            "actual_output": "16\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.422050952911377
-          }
-        ],
-        "submitted_at": "2025-11-01T18:25:44.946546+00:00",
-        "is_final": true,
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "78447741-5880-438e-910f-ce0c2b1920f7|1": {
-    "serial_number": 23,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1762021620.819703,
-    "serial_deadline": 1762021740.819703,
-    "exam_start_time": 1762021630.886231,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762022350.886231,
-    "current_code": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
-    "last_save_time": 1762022960.858359,
-    "per_question_code": {
-      "q1": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
-        "score": 65.65,
-        "passed": true,
-        "public_case_results": [
-          true,
-          true,
-          true,
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "odd\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.5493299961090088
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "odd\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.2621970176696777
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "even\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.5239622592926025
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "even\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 1.3441722393035889
-          }
-        ],
-        "submitted_at": "2025-11-01T18:28:09.405775+00:00",
-        "is_final": true,
-        "department_id_snapshot": "47122805-d893-40aa-b81e-63b44686255f",
-        "department_name_snapshot": "ECE",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "47122805-d893-40aa-b81e-63b44686255f",
-    "department_name_snapshot": "ECE",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
   "d229d284-72d8-4e20-ab09-9658b0234bc4|2": {
     "serial_number": 1,
     "assigned_question": [
@@ -1199,138 +339,6 @@
         "section_name_snapshot": "B",
         "year_snapshot": 2,
         "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "a4e5deaf-0009-4716-aa3f-7385ee2aab52|3": {
-    "serial_number": 1,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1762026534.884842,
-    "serial_deadline": 1762026654.884842,
-    "exam_start_time": 1762026536.1977248,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762027256.1977248,
-    "current_code": "hi",
-    "last_save_time": 1762026956.2360902,
-    "per_question_code": {
-      "q1": "hi"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "hi",
-        "score": 10.0,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.7333040237426758
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.8583369255065918
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.3886468410491943
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.8687999248504639
-          }
-        ],
-        "submitted_at": "2025-11-01T19:49:12.998089+00:00",
-        "is_final": false,
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      },
-      {
-        "question_id": "q1",
-        "code": "hi",
-        "score": 10.0,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.4535300731658936
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.840717077255249
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.8400919437408447
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "Traceback (most recent call last):\n  File \"script.py\", line 1, in <module>\n    hi\nNameError: name 'hi' is not defined\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 1.4592859745025635
-          }
-        ],
-        "submitted_at": "2025-11-01T20:04:52.453225+00:00",
-        "is_final": true,
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": false
       }
     ],
     "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
@@ -3234,440 +2242,6 @@
     "section_name_snapshot": "B",
     "year_snapshot": 2
   },
-  "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5|3": {
-    "serial_number": 18,
-    "assigned_question": [
-      "q2"
-    ],
-    "finished": true,
-    "joined_at": 1762297388.263227,
-    "serial_deadline": 1762297508.263227,
-    "exam_start_time": 1762297390.246068,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762298110.246068,
-    "current_code": "n=int(input())\nif n%2!=0:\n    print('even')\nelse:\n    print('even')",
-    "last_save_time": 1762297426.703423,
-    "per_question_code": {
-      "q2": "n=int(input())\nif n%2!=0:\n    print('even')\nelse:\n    print('even')"
-    },
-    "submissions": [
-      {
-        "question_id": "q2",
-        "code": "n=int(input())\nif n%2!=0:\n    print('even')\nelse:\n    print('even')",
-        "score": 43.71,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "even\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.02275991439819336
-          },
-          {
-            "input": "3",
-            "expected_output": "9",
-            "actual_output": "even\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.016607046127319336
-          },
-          {
-            "input": "4",
-            "expected_output": "16",
-            "actual_output": "even\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.015028953552246094
-          }
-        ],
-        "submitted_at": "2025-11-04T23:04:01.224128+00:00",
-        "is_final": true,
-        "effort_score": 0.6,
-        "logic_similarity": 0.5631,
-        "correctness": 0.0,
-        "llm_feedback": {
-          "feedback": "Brief summary (0.0% test cases, 56.3% logic similarity, 60.0% effort)",
-          "critic": "The student's code incorrectly identifies even numbers as 'even' instead of calculating their square.",
-          "improvements": [
-            "MISTAKE: Incorrect conditional statement - Change `if n%2!=0:` to `if n%2==0:` because the condition should check for even numbers.",
-            "MISTAKE: Incorrect print statement - Change `print('even')` to `print(n**2)` because it should calculate and print the square of the number."
-          ],
-          "scope_for_improvement": "['Fix issue: Change `if n%2!=0:` to `if n%2==0:` because the condition should check for even numbers.', \"Fix issue: Change `print('even')` to `print(n**2)` because it should calculate and print the square of the number.\"]"
-        },
-        "ideal_solution": "n=int(input())\nprint(n*n)",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5|4": {
-    "serial_number": 19,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1762297490.271797,
-    "serial_deadline": 1762297610.271797,
-    "exam_start_time": 1762297493.162305,
-    "exam_duration_minutes": 1,
-    "exam_end_time": 1762297553.162305,
-    "current_code": "print('hello world')",
-    "last_save_time": 1762297501.483167,
-    "per_question_code": {
-      "q1": "print('hello world')"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "print('hello world')",
-        "score": 35.75,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "hello world\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.027685880661010742
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "hello world\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.017902135848999023
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "hello world\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.016546964645385742
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "hello world\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.014246940612792969
-          }
-        ],
-        "submitted_at": "2025-11-04T23:05:16.502190+00:00",
-        "is_final": true,
-        "effort_score": 0.5,
-        "logic_similarity": 0.45,
-        "correctness": 0.0,
-        "llm_feedback": {
-          "feedback": "0.0% test cases, 45.0% logic similarity, 50.0% effort",
-          "critic": "The student's code is missing the main function and does not handle user input to determine whether a number is even or odd.",
-          "improvements": [
-            "MISTAKE: Missing main function - Change `print('hello world')` to `def main():` because Python programs require a main function to execute.",
-            "MISTAKE: No input handling - Change `print('hello world')` to `num = int(input())` because the program needs user input to determine whether a number is even or odd."
-          ],
-          "scope_for_improvement": "[\"Fix issue: Missing main function - Change `print('hello world')` to `def main():` because Python programs require a main function to execute.\", \"Fix issue: No input handling - Change `print('hello world')` to `num = int(input())` because the program needs user input to determine whether a number is even or odd.\"]"
-        },
-        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5|1": {
-    "serial_number": 19,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1762297567.2844229,
-    "serial_deadline": 1762297687.2844229,
-    "exam_start_time": 1762297569.632946,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762298289.632946,
-    "current_code": "n=int(input())\nprint(n**n)",
-    "last_save_time": 1762297582.882472,
-    "per_question_code": {
-      "q1": "n=int(input())\nprint(n**n)"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "n=int(input())\nprint(n**n)",
-        "score": 43.71,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "1\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.02456212043762207
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "27\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.018504858016967773
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "4\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.01613903045654297
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "256\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.014627218246459961
-          }
-        ],
-        "submitted_at": "2025-11-04T23:06:43.589768+00:00",
-        "is_final": true,
-        "effort_score": 0.6,
-        "logic_similarity": 0.5631,
-        "correctness": 0.0,
-        "llm_feedback": {
-          "feedback": "Brief summary (0.0% test cases, 56.3% logic similarity, 60.0% effort)",
-          "critic": "The student's code is attempting to determine whether a number is even or odd by raising it to the power of itself and printing the result. However, this approach is fundamentally flawed as it does not accurately reflect the parity of the input number.",
-          "improvements": [
-            "MISTAKE: Incorrect logic - Change `print(n**n)` to `print('even' if n % 2 == 0 else 'odd')` because the current implementation raises the number to its own power, which does not determine whether it's even or odd.",
-            "MISTAKE: Lack of modulo operation - Change `None` to `n % 2 == 0` because the student's code is missing a crucial step in determining parity."
-          ],
-          "scope_for_improvement": "[\"Fix issue: Change `print(n**n)` to `print('even' if n % 2 == 0 else 'odd')` because this accurately reflects whether the input number is even or odd.\", 'Fix issue: Change `None` to `n % 2 == 0` because this correctly determines whether a number is even (remainder of 0) or odd (remainder not equal to 0).']"
-        },
-        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5|2": {
-    "serial_number": 19,
-    "assigned_question": [
-      "q1"
-    ],
-    "finished": true,
-    "joined_at": 1762297666.2131991,
-    "serial_deadline": 1762297786.2131991,
-    "exam_start_time": 1762297668.3427498,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762298388.3427498,
-    "current_code": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')",
-    "last_save_time": 1762297700.332174,
-    "per_question_code": {
-      "q1": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')"
-    },
-    "submissions": [
-      {
-        "question_id": "q1",
-        "code": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')",
-        "score": 57.6,
-        "passed": true,
-        "public_case_results": [
-          false,
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "1",
-            "expected_output": "odd",
-            "actual_output": "even\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.0255889892578125
-          },
-          {
-            "input": "3",
-            "expected_output": "odd",
-            "actual_output": "even\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.01793527603149414
-          },
-          {
-            "input": "2",
-            "expected_output": "even",
-            "actual_output": "odd\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.016011714935302734
-          },
-          {
-            "input": "4",
-            "expected_output": "even",
-            "actual_output": "odd\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.014915227890014648
-          }
-        ],
-        "submitted_at": "2025-11-04T23:08:37.656274+00:00",
-        "is_final": true,
-        "effort_score": 0.6,
-        "logic_similarity": 0.96,
-        "correctness": 0.0,
-        "llm_feedback": {
-          "feedback": "Brief summary (0/4 passed, 96.0% logic similarity, 60.0% effort)",
-          "critic": "The student's code incorrectly prints 'even' for odd numbers and vice versa due to a logical error in the if-else statement.",
-          "improvements": [
-            "MISTAKE: Incorrect output for even/odd numbers - Change `if n%2==0:` to `if n%2!=0:` because the condition should check for non-zero remainder, indicating an odd number.",
-            "MISTAKE: Incorrect output for even/odd numbers - Change `print('even')` to `print('odd')` in the else block because it should print 'odd' when the input is not divisible by 2."
-          ],
-          "scope_for_improvement": "['Fix issue: Change `if n%2==0:` to `if n%2!=0:` because the condition should check for non-zero remainder, indicating an odd number.', \"Fix issue: Change `print('even')` to `print('odd')` in the else block because it should print 'odd' when the input is not divisible by 2.\"]"
-        },
-        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "ff9bd7ae-e250-4b66-a312-2b9aeb4e9aa5|10": {
-    "serial_number": 19,
-    "assigned_question": [
-      "q2"
-    ],
-    "finished": true,
-    "joined_at": 1762297756.7298791,
-    "serial_deadline": 1762297876.7298791,
-    "exam_start_time": 1762297759.305452,
-    "exam_duration_minutes": 1,
-    "exam_end_time": 1762297819.305452,
-    "current_code": "n=int(input())\nprint(n*n)",
-    "last_save_time": 1762297768.917687,
-    "per_question_code": {
-      "q2": "n=int(input())\nprint(n*n)"
-    },
-    "submissions": [
-      {
-        "question_id": "q2",
-        "code": "n=int(input())\nprint(n*n)",
-        "score": 80.0,
-        "passed": true,
-        "public_case_results": [
-          true,
-          true,
-          true
-        ],
-        "detailed_results": [
-          {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "4\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.025474071502685547
-          },
-          {
-            "input": "3",
-            "expected_output": "9",
-            "actual_output": "9\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.01859307289123535
-          },
-          {
-            "input": "4",
-            "expected_output": "16",
-            "actual_output": "16\n",
-            "passed": true,
-            "error": null,
-            "execution_time": 0.016323089599609375
-          }
-        ],
-        "submitted_at": "2025-11-04T23:09:41.574605+00:00",
-        "is_final": true,
-        "effort_score": 0.5,
-        "logic_similarity": 1.0,
-        "correctness": 1.0,
-        "llm_feedback": {
-          "feedback": "100.0% test cases, 100.0% logic similarity, 50.0% effort",
-          "critic": "The student's code does not contain any critical errors or logical flaws.",
-          "improvements": "MISTAKE: The problem statement is to identify the actual mistakes in the student's code - do not add new features or change the problem - but there are no actual mistakes. However, the code can be improved for better readability and maintainability by adding comments or docstrings.",
-          "scope_for_improvement": "Fix None: No changes needed as the code is correct."
-        },
-        "ideal_solution": "n=int(input())\nprint(n*n)",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
   "d229d284-72d8-4e20-ab09-9658b0234bc4|11": {
     "serial_number": 12,
     "assigned_question": [
@@ -3917,88 +2491,6 @@
         "section_name_snapshot": "B",
         "year_snapshot": 2,
         "is_best": true
-      }
-    ],
-    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-    "department_name_snapshot": "Information Technology",
-    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-    "section_name_snapshot": "B",
-    "year_snapshot": 2
-  },
-  "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9|1": {
-    "serial_number": 14,
-    "assigned_question": [
-      "q2"
-    ],
-    "finished": true,
-    "joined_at": 1762373288.0662348,
-    "serial_deadline": 1762373288.0662348,
-    "exam_start_time": 1762373290.735757,
-    "exam_duration_minutes": 12,
-    "exam_end_time": 1762374010.735757,
-    "current_code": "\n4o3oovfo3vo44",
-    "last_save_time": 1762373332.296273,
-    "per_question_code": {
-      "q2": "4o3oovfo3vo44"
-    },
-    "submissions": [
-      {
-        "question_id": "q2",
-        "code": "4o3oovfo3vo44",
-        "score": 25.5,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "",
-            "passed": false,
-            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpunra7q0k/main.py\", line 1\n    4o3oovfo3vo44\n     ^\nSyntaxError: invalid syntax\n",
-            "execution_time": 0.02630782127380371
-          },
-          {
-            "input": "3",
-            "expected_output": "9",
-            "actual_output": "",
-            "passed": false,
-            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmptokb8nv0/main.py\", line 1\n    4o3oovfo3vo44\n     ^\nSyntaxError: invalid syntax\n",
-            "execution_time": 0.01605677604675293
-          },
-          {
-            "input": "4",
-            "expected_output": "16",
-            "actual_output": "",
-            "passed": false,
-            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpapa8pzb3/main.py\", line 1\n    4o3oovfo3vo44\n     ^\nSyntaxError: invalid syntax\n",
-            "execution_time": 0.015199899673461914
-          }
-        ],
-        "submitted_at": "2025-11-05T20:09:02.423095+00:00",
-        "is_final": true,
-        "status": "done",
-        "ideal_solution": "n=int(input())\nprint(n*n)",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": true,
-        "effort_score": 0.2,
-        "logic_similarity": 0.5,
-        "correctness": 0.0,
-        "llm_feedback": {
-          "feedback": "Student's code has syntax errors due to invalid characters.",
-          "critic": "The student's code contains non-code characters, which is causing a SyntaxError. This indicates a lack of understanding of Python syntax and the importance of using valid characters in code.",
-          "improvements": [
-            "MISTAKE: Non-code characters in the code - Change `4o3oovfo3vo44` to `def square(n): return n ** 2` because Python requires valid code syntax."
-          ],
-          "scope_for_improvement": "['Fix issue: Replace non-code characters with a function definition. Change `4o3oovfo3vo44` to `def square(n): return n ** 2` because Python requires valid code syntax.']"
-        }
       }
     ],
     "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
@@ -4874,121 +3366,114 @@
     "section_name_snapshot": "B",
     "year_snapshot": 2
   },
-  "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9|mid1": {
-    "serial_number": 11,
+  "d229d284-72d8-4e20-ab09-9658b0234bc4|mid1": {
+    "serial_number": 1,
     "assigned_question": [
       "q2"
     ],
     "finished": true,
-    "joined_at": 1762469042.011595,
-    "serial_deadline": 1762469042.011595,
-    "exam_start_time": 1762469042.01173,
+    "joined_at": 1762509719.6417038,
+    "serial_deadline": 1762509719.6417038,
+    "exam_start_time": 1762509719.6418262,
     "exam_duration_minutes": 12,
-    "exam_end_time": 1762469762.01173,
-    "current_code": "n=int(input())\nprint(n**2)",
-    "last_save_time": 1762469222.8494458,
+    "exam_end_time": 1762510439.6418262,
+    "current_code": "",
+    "last_save_time": 1762509751.2008388,
+    "per_question_code": {},
+    "submissions": [],
+    "department_id_snapshot": "47122805-d893-40aa-b81e-63b44686255f",
+    "department_name_snapshot": "ECE",
+    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+    "section_name_snapshot": "B",
+    "year_snapshot": 2
+  },
+  "78447741-5880-438e-910f-ce0c2b1920f7|mid1": {
+    "serial_number": 2,
+    "assigned_question": [
+      "q1"
+    ],
+    "finished": true,
+    "joined_at": 1762510065.754408,
+    "serial_deadline": 1762510065.754408,
+    "exam_start_time": 1762510068.850743,
+    "exam_duration_minutes": 12,
+    "exam_end_time": 1762510788.850743,
+    "current_code": "",
+    "last_save_time": 1762510100.009403,
+    "per_question_code": {},
+    "submissions": [],
+    "department_id_snapshot": "47122805-d893-40aa-b81e-63b44686255f",
+    "department_name_snapshot": "ECE",
+    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+    "section_name_snapshot": "B",
+    "year_snapshot": 2
+  },
+  "a4e5deaf-0009-4716-aa3f-7385ee2aab52|mid1": {
+    "serial_number": 8,
+    "assigned_question": [
+      "q1"
+    ],
+    "finished": true,
+    "joined_at": 1762513694.240799,
+    "serial_deadline": 1762513694.240799,
+    "exam_start_time": 1762513713.4649868,
+    "exam_duration_minutes": 12,
+    "exam_end_time": 1762514433.4649868,
+    "current_code": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")",
+    "last_save_time": 1762513954.721885,
     "per_question_code": {
-      "q2": "n=int(input())\nprint(n**2)"
+      "q1": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")"
     },
     "submissions": [
       {
-        "question_id": "q2",
-        "code": "n=int(input())\nprint(n)",
-        "score": 40.4,
-        "passed": false,
-        "public_case_results": [
-          false,
-          false,
-          false
-        ],
-        "detailed_results": [
-          {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "2\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.03420686721801758
-          },
-          {
-            "input": "3",
-            "expected_output": "9",
-            "actual_output": "3\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.015127897262573242
-          },
-          {
-            "input": "4",
-            "expected_output": "16",
-            "actual_output": "4\n",
-            "passed": false,
-            "error": null,
-            "execution_time": 0.013634204864501953
-          }
-        ],
-        "submitted_at": "2025-11-06T22:45:18.511505+00:00",
-        "is_final": false,
-        "status": "done",
-        "ideal_solution": "n=int(input())\nprint(n*n)",
-        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
-        "department_name_snapshot": "Information Technology",
-        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
-        "section_name_snapshot": "B",
-        "year_snapshot": 2,
-        "is_best": false,
-        "effort_score": 0.6,
-        "logic_similarity": 0.71,
-        "correctness": 0.0,
-        "llm_feedback": {
-          "feedback": "Brief summary (0.0% test cases, 71.0% logic similarity, 60.0% effort)",
-          "critic": "The student's code is missing the calculation of the square of the input number.",
-          "improvements": [
-            "MISTAKE: Missing calculation - Change `print(n)` to `print(n*n)` because it needs to calculate the square of the input number."
-          ],
-          "scope_for_improvement": "['Fix issue: Change `print(n)` to `print(n*n)` because it needs to calculate the square of the input number.']"
-        }
-      },
-      {
-        "question_id": "q2",
-        "code": "n=int(input())\nprint(n**2)",
+        "question_id": "q1",
+        "code": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")",
         "score": 100.0,
         "passed": true,
         "public_case_results": [
+          true,
           true,
           true,
           true
         ],
         "detailed_results": [
           {
-            "input": "2",
-            "expected_output": "4",
-            "actual_output": "4\n",
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
             "passed": true,
             "error": null,
-            "execution_time": 0.030065059661865234
+            "execution_time": 0.033000946044921875
           },
           {
             "input": "3",
-            "expected_output": "9",
-            "actual_output": "9\n",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
             "passed": true,
             "error": null,
-            "execution_time": 0.015366315841674805
+            "execution_time": 0.016051054000854492
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.014042854309082031
           },
           {
             "input": "4",
-            "expected_output": "16",
-            "actual_output": "16\n",
+            "expected_output": "even",
+            "actual_output": "even\n",
             "passed": true,
             "error": null,
-            "execution_time": 0.013650894165039062
+            "execution_time": 0.012922048568725586
           }
         ],
-        "submitted_at": "2025-11-06T22:45:58.293452+00:00",
+        "submitted_at": "2025-11-07T11:11:39.360549+00:00",
         "is_final": false,
         "status": "done",
-        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
         "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
         "department_name_snapshot": "Information Technology",
         "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
@@ -4996,34 +3481,85 @@
         "year_snapshot": 2,
         "is_best": true,
         "effort_score": 0.85,
-        "logic_similarity": 0.76,
+        "logic_similarity": 0.94,
         "correctness": 1.0,
         "llm_feedback": {
-          "feedback": "Brief summary (100.0% test cases, 76.0% logic similarity, 85.0% effort)",
-          "critic": "The student's code does not contain any critical errors or logical flaws.",
+          "feedback": "Brief summary (100.0% test cases, 94.0% logic similarity, 85.0% effort)",
+          "critic": "The student's code is mostly correct but fails to handle edge cases correctly.",
           "improvements": [
-            "MISTAKE: The problem statement is to find the square of a number, but the input is taken as an integer without specifying its range or constraints - Change `n=int(input())` to `n=float(input())` because it's necessary to handle decimal inputs for accurate results.",
-            "MISTAKE: The code does not handle potential errors that may occur during user input - Change `input()` to `try: input()` and add error handling because it's essential to provide a robust solution."
+            "MISTAKE: Incorrect assumption about the input - Change `n=int(input())` to `n=int(input()) or None` because it doesn't handle invalid inputs.",
+            "MISTAKE: Lack of error handling for non-integer inputs - Change `if n%2==0:` to `if isinstance(n, int) and n%2==0:` because it assumes the input is always an integer."
           ],
-          "scope_for_improvement": "[\"Fix issue: Change `n=int(input())` to `n=float(input())` because it's necessary to handle decimal inputs for accurate results.\", \"Fix issue: Change `input()` to `try: input()` and add error handling because it's essential to provide a robust solution.\"]"
+          "scope_for_improvement": "[\"Fix issue: Change `n=int(input())` to `try: n=int(input()) except ValueError: print('Invalid input')` because it doesn't handle invalid inputs.\", 'Fix issue: Change `if n%2==0:` to `if isinstance(n, int) and n%2==0:` because it assumes the input is always an integer.']"
         }
       },
       {
-        "question_id": "q2",
-        "code": "n=int(input())\nprint(n**2)",
-        "score": null,
-        "passed": false,
-        "public_case_results": [],
-        "detailed_results": [],
-        "submitted_at": "2025-11-06T22:47:23.480375+00:00",
+        "question_id": "q1",
+        "code": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")",
+        "score": 100.0,
+        "passed": true,
+        "public_case_results": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "detailed_results": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.025038957595825195
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.016949176788330078
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.014211893081665039
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.0131988525390625
+          }
+        ],
+        "submitted_at": "2025-11-07T11:13:02.625823+00:00",
         "is_final": true,
-        "status": "processing",
-        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
         "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
         "department_name_snapshot": "Information Technology",
         "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
         "section_name_snapshot": "B",
-        "year_snapshot": 2
+        "year_snapshot": 2,
+        "is_best": false,
+        "effort_score": 0.85,
+        "logic_similarity": 0.94,
+        "correctness": 1.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (100.0% test cases, 94.0% logic similarity, 85.0% effort)",
+          "critic": "The student's code is mostly correct but fails to handle edge cases correctly.",
+          "improvements": [
+            "MISTAKE: Incorrect assumption about the input - Change `n=int(input())` to `n=int(input()) or None` because it doesn't handle invalid inputs.",
+            "MISTAKE: Lack of error handling for non-integer inputs - Change `if n%2==0:` to `if isinstance(n, int) and n%2==0:` because it assumes the input is always an integer."
+          ],
+          "scope_for_improvement": "[\"Fix issue: Change `n=int(input())` to `try: n=int(input()) except ValueError: print('Invalid input')` because it doesn't handle invalid inputs.\", 'Fix issue: Change `if n%2==0:` to `if isinstance(n, int) and n%2==0:` because it assumes the input is always an integer.']"
+        }
       }
     ],
     "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
@@ -5031,5 +3567,831 @@
     "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
     "section_name_snapshot": "B",
     "year_snapshot": 2
+  },
+  "ddffdf0c-f1b9-46f6-8f91-b52c25d83333|m2": {
+    "serial_number": 1,
+    "assigned_question": [
+      "q1"
+    ],
+    "finished": true,
+    "joined_at": 1762518994.663012,
+    "serial_deadline": 1762518994.663012,
+    "exam_start_time": 1762518994.663181,
+    "exam_duration_minutes": 12,
+    "exam_end_time": 1762519714.663181,
+    "current_code": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")    ",
+    "last_save_time": 1762519595.135372,
+    "per_question_code": {
+      "q1": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")"
+    },
+    "submissions": [
+      {
+        "question_id": "q1",
+        "code": "import java.util.*;\r\npublic class Eo{\r\n    public static void main(String[] args){\r\n        int i=0;\r\n        int n=0;\r\n        for (i=0;i<n;i++){\r\n        if(i%=2)\r\n        System.out.println(\"even\");\r\n        else \r\n        System.out.println(\"odd\");\r\n        }\r\n    }\r\n}",
+        "score": 36.0,
+        "passed": false,
+        "public_case_results": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpurgjssml/main.py\", line 1\n    import java.util.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.03082108497619629
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpd571stru/main.py\", line 1\n    import java.util.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.016524791717529297
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmp9djsnbxc/main.py\", line 1\n    import java.util.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.014470100402832031
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmp4yopgd1u/main.py\", line 1\n    import java.util.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.013373851776123047
+          }
+        ],
+        "submitted_at": "2025-11-07T12:40:13.518909+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false,
+        "effort_score": 0.6,
+        "logic_similarity": 0.6,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (0.0% test cases, 60.0% logic similarity, 60.0% effort)",
+          "critic": "The student's code is written in Python but contains Java syntax and keywords.",
+          "improvements": [
+            "MISTAKE: Incorrect language - Change `import java.util.*;` to `import java.util` because the problem requires a Python solution.",
+            "MISTAKE: Incorrect language - Change `public class Eo` to `class Eo` because the problem requires a Python solution.",
+            "MISTAKE: Incorrect syntax - Change `if(i%=2)` to `if i % 2 == 0:` because the modulo operator in Python is `%`, not `=`.",
+            "MISTAKE: Incorrect loop condition - Change `for (i=0;i<n;i++)` to `for i in range(n):` because the problem requires a dynamic number of iterations, and `n` is initialized as 0."
+          ],
+          "scope_for_improvement": "['Fix import statement: Change `import java.util.*;` to `import java.util` because the problem requires a Python solution.', 'Fix class definition: Change `public class Eo` to `class Eo` because the problem requires a Python solution.', 'Fix if condition: Change `if(i%=2)` to `if i % 2 == 0:` because the modulo operator in Python is `%`, not `=`.', 'Fix loop condition: Change `for (i=0;i<n;i++)` to `for i in range(n):` because the problem requires a dynamic number of iterations, and `n` is initialized as 0.']"
+        }
+      },
+      {
+        "question_id": "q1",
+        "code": "import java.lang.*;\r\npublic class Eo{\r\n    public static void main(String[] args){\r\n        int i=0;\r\n        int n=0;\r\n        for (i=0;i<n;i++){\r\n        if(i%=2)\r\n        System.out.println(\"even\");\r\n        else \r\n        System.out.println(\"odd\");\r\n        }\r\n    }\r\n}",
+        "score": 36.0,
+        "passed": false,
+        "public_case_results": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpynb4kt8z/main.py\", line 1\n    import java.lang.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.025449037551879883
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpd_td7ydu/main.py\", line 1\n    import java.lang.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.017148733139038086
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmp5oorldiq/main.py\", line 1\n    import java.lang.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.014988183975219727
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmp6yvzamj_/main.py\", line 1\n    import java.lang.*;\n                     ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.013831853866577148
+          }
+        ],
+        "submitted_at": "2025-11-07T12:41:57.457387+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false,
+        "effort_score": 0.6,
+        "logic_similarity": 0.6,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (0.0% test cases, 60.0% logic similarity, 60.0% effort)",
+          "critic": "The student's code is written in Python but contains Java syntax and keywords.",
+          "improvements": [
+            "MISTAKE: Incorrect language - Change `import java.lang.*;` to `import java.lang` because the code is supposed to be in Python.",
+            "MISTAKE: Incorrect language - Change `public class Eo` to `class Eo` because the code is supposed to be in Python.",
+            "MISTAKE: Incorrect syntax - Change `if(i%=2)` to `if i % 2 == 0:` because the modulus operator should be used with double equals for comparison.",
+            "MISTAKE: Incorrect loop condition - Change `for (i=0;i<n;i++)` to `for i in range(n):` because the loop should iterate over a range of numbers, not a fixed number of iterations."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `import java.lang.*;` to `import java.lang` because the code is supposed to be in Python.', 'Fix issue: Change `public class Eo` to `class Eo` because the code is supposed to be in Python.', 'Fix issue: Change `if(i%=2)` to `if i % 2 == 0:` because the modulus operator should be used with double equals for comparison.', 'Fix issue: Change `for (i=0;i<n;i++)` to `for i in range(n):` because the loop should iterate over a range of numbers, not a fixed number of iterations.']"
+        }
+      },
+      {
+        "question_id": "q1",
+        "code": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")    ",
+        "score": 100.0,
+        "passed": true,
+        "public_case_results": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "detailed_results": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.03545212745666504
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.017179012298583984
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.015959739685058594
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.01526498794555664
+          }
+        ],
+        "submitted_at": "2025-11-07T12:45:07.360655+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": true,
+        "effort_score": 0.85,
+        "logic_similarity": 0.94,
+        "correctness": 1.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (100.0% test cases, 94.0% logic similarity, 85.0% effort)",
+          "critic": "The student's code is mostly correct but fails to handle edge cases correctly.",
+          "improvements": [
+            "MISTAKE: Incorrect assumption about input - Change `n=int(input())` to `n=int(input()) or None` because the code does not handle invalid inputs.",
+            "MISTAKE: Lack of error handling - Change `if n%2==0:` to `if n is not None and n%2==0:` because the code assumes a valid integer input."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `n=int(input())` to `n=int(input()) or None` because the code does not handle invalid inputs.', 'Fix issue: Change `if n%2==0:` to `if n is not None and n%2==0:` because the code assumes a valid integer input.']"
+        }
+      },
+      {
+        "question_id": "q1",
+        "code": "n=int(input())\r\nif n%2==0:\r\n    print(\"even\")\r\nelse:\r\n    print(\"odd\")",
+        "score": 100.0,
+        "passed": true,
+        "public_case_results": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "detailed_results": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.030539989471435547
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "actual_output": "odd\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.01646590232849121
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.014453887939453125
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "actual_output": "even\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.013854265213012695
+          }
+        ],
+        "submitted_at": "2025-11-07T12:46:37.326068+00:00",
+        "is_final": true,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false,
+        "effort_score": 0.85,
+        "logic_similarity": 0.94,
+        "correctness": 1.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (100.0% test cases, 94.0% logic similarity, 85.0% effort)",
+          "critic": "The student's code is mostly correct but fails to handle edge cases correctly.",
+          "improvements": [
+            "MISTAKE: Incorrect assumption about the input - Change `n=int(input())` to `n=int(input()) or None` because it doesn't handle invalid inputs.",
+            "MISTAKE: Lack of error handling for non-integer inputs - Change `if n%2==0:` to `if isinstance(n, int) and n%2==0:` because it assumes the input is always an integer."
+          ],
+          "scope_for_improvement": "[\"Fix issue: Change `n=int(input())` to `try: n=int(input()) except ValueError: print('Invalid input')` because it doesn't handle invalid inputs.\", 'Fix issue: Change `if n%2==0:` to `if isinstance(n, int) and n%2==0:` because it assumes the input is always an integer.']"
+        }
+      }
+    ],
+    "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+    "department_name_snapshot": "Computer Science and Engineering",
+    "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+    "section_name_snapshot": "2",
+    "year_snapshot": 4
+  },
+  "54dc8c3b-83b6-4b40-bf95-ad4220be4ec9|mid1": {
+    "serial_number": 19,
+    "assigned_question": [
+      "q2"
+    ],
+    "finished": true,
+    "joined_at": 1762760894.546016,
+    "serial_deadline": 1762760894.546016,
+    "exam_start_time": 1762760923.0286238,
+    "exam_duration_minutes": 12,
+    "exam_end_time": 1762761643.0286238,
+    "current_code": "",
+    "last_save_time": 1762760954.4461482,
+    "per_question_code": {
+      "q2": ""
+    },
+    "submissions": [
+      {
+        "question_id": "q2",
+        "code": "",
+        "score": null,
+        "passed": false,
+        "public_case_results": [],
+        "detailed_results": [],
+        "submitted_at": "2025-11-10T07:49:25.524895+00:00",
+        "is_final": true,
+        "status": "failed",
+        "ideal_solution": "n=int(input())\nprint(n*n)",
+        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+        "department_name_snapshot": "Information Technology",
+        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+        "section_name_snapshot": "B",
+        "year_snapshot": 2,
+        "is_best": false
+      }
+    ],
+    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+    "department_name_snapshot": "Information Technology",
+    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+    "section_name_snapshot": "B",
+    "year_snapshot": 2
+  },
+  "a4e5deaf-0009-4716-aa3f-7385ee2aab52|3": {
+    "serial_number": 1,
+    "assigned_question": [
+      "q1"
+    ],
+    "finished": true,
+    "joined_at": 1768399638.424151,
+    "serial_deadline": 1768399638.424151,
+    "exam_start_time": 1768399638.424358,
+    "exam_duration_minutes": 12,
+    "exam_end_time": 1768400358.424358,
+    "current_code": "for",
+    "last_save_time": 1768399729.150819,
+    "per_question_code": {
+      "q1": "for"
+    },
+    "submissions": [
+      {
+        "question_id": "q1",
+        "code": "for",
+        "score": null,
+        "passed": false,
+        "public_case_results": [],
+        "detailed_results": [],
+        "submitted_at": "2026-01-14T14:08:44.022758+00:00",
+        "is_final": false,
+        "status": "processing",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+        "department_name_snapshot": "Information Technology",
+        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+        "section_name_snapshot": "B",
+        "year_snapshot": 2,
+        "is_best": false
+      },
+      {
+        "question_id": "q1",
+        "code": "for",
+        "score": 22.0,
+        "passed": false,
+        "public_case_results": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "1",
+            "expected_output": "odd",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmp7gskpfcn/main.py\", line 1\n    for\n       ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.03702712059020996
+          },
+          {
+            "input": "3",
+            "expected_output": "odd",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpancw457m/main.py\", line 1\n    for\n       ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.01899099349975586
+          },
+          {
+            "input": "2",
+            "expected_output": "even",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpzx443rj9/main.py\", line 1\n    for\n       ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.01900482177734375
+          },
+          {
+            "input": "4",
+            "expected_output": "even",
+            "actual_output": "",
+            "passed": false,
+            "error": "  File \"/var/folders/8j/yj0tl8690cb59t24n7bj1wt40000gn/T/tmpg3ql2ch0/main.py\", line 1\n    for\n       ^\nSyntaxError: invalid syntax\n",
+            "execution_time": 0.018769025802612305
+          }
+        ],
+        "submitted_at": "2026-01-14T14:08:44.273188+00:00",
+        "is_final": true,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print('even')\nelse:\n    print('odd')",
+        "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+        "department_name_snapshot": "Information Technology",
+        "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+        "section_name_snapshot": "B",
+        "year_snapshot": 2,
+        "is_best": true,
+        "effort_score": 0.6,
+        "logic_similarity": 0.25,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "Student's code has syntax errors due to missing loop control statements.",
+          "critic": "The student's code lacks a clear understanding of Python syntax and the concept of loops. The 'for' statement is incomplete, leading to syntax errors.",
+          "improvements": [
+            "MISTAKE: Missing loop control statement - Change `for` to `for i in range(10):` because a loop requires a condition or iteration specification.",
+            "MISTAKE: Incomplete loop statement - Change `for` to `if num % 2 == 0:` because the student's code lacks a conditional statement to check for even numbers."
+          ],
+          "scope_for_improvement": "[\"Fix issue: Add a loop control statement, such as 'range' or 'while', to complete the 'for' loop. Change `for` to `for i in range(10):` because a loop requires a condition or iteration specification.\", \"Fix issue: Complete the conditional statement to check for even numbers. Change `for` to `if num % 2 == 0:` because the student's code lacks a clear condition to determine if a number is even.\"]"
+        }
+      }
+    ],
+    "department_id_snapshot": "1de93c3f-fc94-4d1f-9963-fe84a8200389",
+    "department_name_snapshot": "Information Technology",
+    "section_id_snapshot": "76c696aa-9213-4b02-b764-f859c74a81f9",
+    "section_name_snapshot": "B",
+    "year_snapshot": 2
+  },
+  "77f8b5c9-9aca-45e4-9313-d381cb146be2|2": {
+    "serial_number": 1,
+    "assigned_question": [
+      "q2"
+    ],
+    "finished": true,
+    "joined_at": 1774308337.1268969,
+    "serial_deadline": 1774308337.1268969,
+    "exam_start_time": 1774308337.1270442,
+    "exam_duration_minutes": 15,
+    "exam_end_time": 1774309237.1270442,
+    "current_code": "n=int(input())\nprint(n+n)",
+    "last_save_time": 1774308397.7271821,
+    "per_question_code": {
+      "q2": "n=int(input())\nprint(n+n)"
+    },
+    "submissions": [
+      {
+        "question_id": "q2",
+        "code": "n=int(input())\nprint(n+n)",
+        "score": 38.0,
+        "passed": false,
+        "public_case_results": [
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "13",
+            "expected_output": "169",
+            "actual_output": "26\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.045449256896972656
+          },
+          {
+            "input": "25",
+            "expected_output": "625",
+            "actual_output": "50\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.039405107498168945
+          }
+        ],
+        "submitted_at": "2026-03-23T23:26:20.598584+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "n=int(input()\nprint(n**2)",
+        "department_id_snapshot": "fbbf195a-488a-4e56-a45c-6cf65cb7d048",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "18aafe38-169f-423e-ad09-28829e57533d",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": true,
+        "effort_score": 0.6,
+        "logic_similarity": 0.65,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "0.0% test cases, 65.0% logic similarity, 60.0%",
+          "critic": "The student's code is attempting to calculate the square of an integer by adding it to itself, which is incorrect.",
+          "improvements": [
+            "MISTAKE: Incorrect calculation - Change `print(n+n)` to `print(n*n)` because squaring a number involves multiplying it by itself, not adding it to itself."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `print(n+n)` to `print(n*n)` because squaring a number involves multiplying it by itself, not adding it to itself.']"
+        }
+      },
+      {
+        "question_id": "q2",
+        "code": "n=int(input())\nprint(n+n)",
+        "score": null,
+        "passed": false,
+        "public_case_results": [],
+        "detailed_results": [],
+        "submitted_at": "2026-03-23T23:26:53.028343+00:00",
+        "is_final": false,
+        "status": "processing",
+        "ideal_solution": "n=int(input()\nprint(n**2)",
+        "department_id_snapshot": "fbbf195a-488a-4e56-a45c-6cf65cb7d048",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "18aafe38-169f-423e-ad09-28829e57533d",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false
+      },
+      {
+        "question_id": "q2",
+        "code": "n=int(input())\nprint(n+n)",
+        "score": 38.0,
+        "passed": false,
+        "public_case_results": [
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "13",
+            "expected_output": "169",
+            "actual_output": "26\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.02454209327697754
+          },
+          {
+            "input": "25",
+            "expected_output": "625",
+            "actual_output": "50\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.02168107032775879
+          }
+        ],
+        "submitted_at": "2026-03-23T23:26:53.173859+00:00",
+        "is_final": true,
+        "status": "done",
+        "ideal_solution": "n=int(input()\nprint(n**2)",
+        "department_id_snapshot": "fbbf195a-488a-4e56-a45c-6cf65cb7d048",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "18aafe38-169f-423e-ad09-28829e57533d",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false,
+        "effort_score": 0.6,
+        "logic_similarity": 0.65,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "0.0% test cases, 65.0% logic similarity, 60.0%",
+          "critic": "The student's code is attempting to calculate the square of an integer by adding it to itself, which is incorrect.",
+          "improvements": [
+            "MISTAKE: Incorrect calculation - Change `print(n+n)` to `print(n*n)` because squaring a number involves multiplying it by itself, not adding it to itself."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `print(n+n)` to `print(n*n)` because squaring a number involves multiplying it by itself, not adding it to itself.']"
+        }
+      }
+    ],
+    "department_id_snapshot": "fbbf195a-488a-4e56-a45c-6cf65cb7d048",
+    "department_name_snapshot": "Computer Science and Engineering",
+    "section_id_snapshot": "18aafe38-169f-423e-ad09-28829e57533d",
+    "section_name_snapshot": "2",
+    "year_snapshot": 4
+  },
+  "ddffdf0c-f1b9-46f6-8f91-b52c25d83333|100": {
+    "serial_number": 2,
+    "assigned_question": [
+      "q4"
+    ],
+    "finished": true,
+    "joined_at": 1774415906.61325,
+    "serial_deadline": 1774415906.61325,
+    "exam_start_time": 1774415906.61339,
+    "exam_duration_minutes": 60,
+    "exam_end_time": 1774419506.61339,
+    "current_code": "s=input()\ns=s.lower()\na=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\ncount=0\nfor i in s:\n    if i in a:\n        count+=1\nprint(count)",
+    "last_save_time": 1774416116.9712708,
+    "per_question_code": {
+      "q4": "s=input()\ns=s.lower()\na=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\ncount=0\nfor i in s:\n    if i in a:\n        count+=1\nprint(count)"
+    },
+    "submissions": [
+      {
+        "question_id": "q4",
+        "code": "s=input()\ns=s.lower()\na=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\ncount=0\nfor i in s:\n    if i in a:\n        count+=1\nprint(count)",
+        "score": 100.0,
+        "passed": true,
+        "public_case_results": [
+          true,
+          true
+        ],
+        "detailed_results": [
+          {
+            "input": "abhiram",
+            "expected_output": "7",
+            "actual_output": "7\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.03679990768432617
+          },
+          {
+            "input": "kandregula",
+            "expected_output": "10",
+            "actual_output": "10\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.02202582359313965
+          }
+        ],
+        "submitted_at": "2026-03-25T05:20:50.154626+00:00",
+        "is_final": false,
+        "status": "done",
+        "ideal_solution": "s=input()\nprint(len(s))",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": true,
+        "effort_score": 0.7,
+        "logic_similarity": 0.48,
+        "correctness": 1.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (100.0% test cases, 48.0% logic similarity, 70.0% effort)",
+          "critic": "The student's code is mostly correct but lacks precision in counting the length of the string.",
+          "improvements": [
+            "MISTAKE: Incorrect variable used for storing the count - Change `count` to `len(s)` because it directly returns the length of the string.",
+            "MISTAKE: Inefficient way of checking if a character is in the alphabet - Change `if i in a:` to `if i.isalpha():` because it checks if the character is an alphabet letter."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `count=0` and `for i in s:` to `len(s)` because it directly returns the length of the string.', 'Fix issue: Change `if i in a:` to `if i.isalpha():` because it checks if the character is an alphabet letter.']"
+        }
+      },
+      {
+        "question_id": "q4",
+        "code": "s=input()\ns=s.lower()\na=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\ncount=0\nfor i in s:\n    if i in a:\n        count+=1\nprint(count)",
+        "score": null,
+        "passed": false,
+        "public_case_results": [],
+        "detailed_results": [],
+        "submitted_at": "2026-03-25T05:22:17.378854+00:00",
+        "is_final": false,
+        "status": "processing",
+        "ideal_solution": "s=input()\nprint(len(s))",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false
+      },
+      {
+        "question_id": "q4",
+        "code": "s=input()\ns=s.lower()\na=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\ncount=0\nfor i in s:\n    if i in a:\n        count+=1\nprint(count)",
+        "score": 100.0,
+        "passed": true,
+        "public_case_results": [
+          true,
+          true
+        ],
+        "detailed_results": [
+          {
+            "input": "abhiram",
+            "expected_output": "7",
+            "actual_output": "7\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.023906707763671875
+          },
+          {
+            "input": "kandregula",
+            "expected_output": "10",
+            "actual_output": "10\n",
+            "passed": true,
+            "error": null,
+            "execution_time": 0.020140886306762695
+          }
+        ],
+        "submitted_at": "2026-03-25T05:22:17.611078+00:00",
+        "is_final": true,
+        "status": "done",
+        "ideal_solution": "s=input()\nprint(len(s))",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false,
+        "effort_score": 0.7,
+        "logic_similarity": 0.48,
+        "correctness": 1.0,
+        "llm_feedback": {
+          "feedback": "Brief summary (100.0% test cases, 48.0% logic similarity, 70.0% effort)",
+          "critic": "The student's code is mostly correct but lacks precision in counting the length of the string.",
+          "improvements": [
+            "MISTAKE: Incorrect variable used for storing the count - Change `count` to `len(s)` because it directly returns the length of the string.",
+            "MISTAKE: Inefficient way of checking if a character is in the alphabet - Change `if i in a:` to `if i.isalpha():` because it checks if the character is an alphabet letter."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `count=0` and `for i in s:` to `len(s)` because it directly returns the length of the string.', 'Fix issue: Change `if i in a:` to `if i.isalpha():` because it checks if the character is an alphabet letter.']"
+        }
+      }
+    ],
+    "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+    "department_name_snapshot": "Computer Science and Engineering",
+    "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+    "section_name_snapshot": "2",
+    "year_snapshot": 4
+  },
+  "d94b59a6-3c78-4f3b-b6a5-2e32d4bf3dfa|100": {
+    "serial_number": 1,
+    "assigned_question": [
+      "q3"
+    ],
+    "finished": true,
+    "joined_at": 1776350247.273054,
+    "serial_deadline": 1776350247.273054,
+    "exam_start_time": 1776350247.273196,
+    "exam_duration_minutes": 60,
+    "exam_end_time": 1776353847.273196,
+    "current_code": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')",
+    "last_save_time": 1776350277.8156831,
+    "per_question_code": {
+      "q3": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')"
+    },
+    "submissions": [
+      {
+        "question_id": "q3",
+        "code": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')",
+        "score": null,
+        "passed": false,
+        "public_case_results": [],
+        "detailed_results": [],
+        "submitted_at": "2026-04-16T14:38:17.970100+00:00",
+        "is_final": false,
+        "status": "processing",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print(\"even\")\nelse:\n    print(\"odd\")",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": false
+      },
+      {
+        "question_id": "q3",
+        "code": "n=int(input())\nif n%2==0:\n    print('odd')\nelse:\n    print('even')",
+        "score": 51.6,
+        "passed": true,
+        "public_case_results": [
+          false,
+          false
+        ],
+        "detailed_results": [
+          {
+            "input": "69",
+            "expected_output": "odd",
+            "actual_output": "even\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.018597841262817383
+          },
+          {
+            "input": "86",
+            "expected_output": "even",
+            "actual_output": "odd\n",
+            "passed": false,
+            "error": null,
+            "execution_time": 0.016605138778686523
+          }
+        ],
+        "submitted_at": "2026-04-16T14:38:18.050902+00:00",
+        "is_final": true,
+        "status": "done",
+        "ideal_solution": "n=int(input())\nif n%2==0:\n    print(\"even\")\nelse:\n    print(\"odd\")",
+        "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+        "department_name_snapshot": "Computer Science and Engineering",
+        "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+        "section_name_snapshot": "2",
+        "year_snapshot": 4,
+        "is_best": true,
+        "effort_score": 0.7,
+        "logic_similarity": 0.94,
+        "correctness": 0.0,
+        "llm_feedback": {
+          "feedback": "0.0% test cases, 94.0% logic similarity, 70.0% effort",
+          "critic": "The student's code has a logical error in the condition for checking even or odd numbers.",
+          "improvements": [
+            "MISTAKE: Incorrect output for even number - Change `print('odd')` to `print('even')` because it should print 'even' when the remainder is 0.",
+            "MISTAKE: Incorrect output for odd number - Change `print('even')` to `print('odd')` because it should print 'odd' when the remainder is not 0."
+          ],
+          "scope_for_improvement": "['Fix issue: Change `if n%2==0:` to `if n%2!=0:` because we want to check for odd numbers by ensuring the remainder is not 0.', \"Fix issue: Change `print('odd')` to `print('even')` in the if condition because it should print 'even' when the number is even.\"]"
+        }
+      }
+    ],
+    "department_id_snapshot": "ae715076-f679-40ba-a034-fd86f0492698",
+    "department_name_snapshot": "Computer Science and Engineering",
+    "section_id_snapshot": "95b716ca-0cad-419f-b529-a4d42898c8b9",
+    "section_name_snapshot": "2",
+    "year_snapshot": 4
   }
 }
